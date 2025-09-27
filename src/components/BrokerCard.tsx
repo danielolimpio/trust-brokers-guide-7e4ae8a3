@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -38,6 +39,7 @@ export function BrokerCard({
   regulation,
   tradingPlatforms = [],
 }: BrokerCardProps) {
+  const { t } = useTranslation();
   const [isExpanded, setIsExpanded] = useState(false);
   const percentage = (rating / maxRating) * 100;
 
@@ -56,8 +58,9 @@ export function BrokerCard({
               <Link to={`/broker/${id}`} className="group">
                 <img
                   src={logo}
-                  alt={`${name} logo`}
+                  alt={`${name} regulated forex broker logo - ${regulation} licensed with ${rating}/5 rating`}
                   className="h-12 w-12 rounded-lg object-contain bg-white p-1 group-hover:shadow-card transition-shadow"
+                  loading="lazy"
                 />
               </Link>
               <div>
@@ -68,7 +71,7 @@ export function BrokerCard({
                   {isTrusted && (
                     <Badge variant="secondary" className="bg-success-light text-success border-success/20">
                       <Shield className="h-3 w-3 mr-1" />
-                      TRUSTED
+                      {t("brokers.regulated") || "VERIFIED"}
                     </Badge>
                   )}
                 </div>
@@ -109,10 +112,13 @@ export function BrokerCard({
               )}
             </Button>
 
-            {/* Start Trading Button */}
+            {/* Start Trading Button - Optimized CTA */}
             <Link to={`/broker/${id}`}>
-              <Button className="bg-success hover:bg-success/90 text-success-foreground shadow-success min-w-[120px]">
-                Start Trading
+              <Button 
+                className="bg-success hover:bg-success/90 text-success-foreground shadow-success min-w-[140px]"
+                aria-label={`Start trading with ${name} - Regulated broker with ${rating}/5 rating`}
+              >
+                {t("brokers.viewProfile") || "View Broker"}
               </Button>
             </Link>
           </div>
@@ -124,19 +130,19 @@ export function BrokerCard({
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               {minDeposit && (
                 <div>
-                  <p className="text-sm text-muted-foreground">Min Deposit</p>
+                  <p className="text-sm text-muted-foreground">{t("brokers.minDeposit") || "Min Deposit"}</p>
                   <p className="font-semibold text-foreground">{minDeposit}</p>
                 </div>
               )}
               {maxLeverage && (
                 <div>
-                  <p className="text-sm text-muted-foreground">Max Leverage</p>
+                  <p className="text-sm text-muted-foreground">{t("brokers.leverage") || "Max Leverage"}</p>
                   <p className="font-semibold text-foreground">{maxLeverage}</p>
                 </div>
               )}
               {regulation && (
                 <div>
-                  <p className="text-sm text-muted-foreground">Regulation</p>
+                  <p className="text-sm text-muted-foreground">{t("brokers.regulated") || "Regulation"}</p>
                   <p className="font-semibold text-foreground">{regulation}</p>
                 </div>
               )}

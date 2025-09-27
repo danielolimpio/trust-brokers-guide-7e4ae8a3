@@ -94,12 +94,12 @@ export function BrokerRanking() {
             {t("brokers.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our expert-reviewed rankings of the most reliable and trustworthy Forex brokers, 
-            updated regularly based on comprehensive analysis.
+            Expert-reviewed rankings of the most reliable and trustworthy Forex brokers with verified regulation, 
+            updated regularly based on comprehensive safety analysis.
           </p>
           <div className="mt-4 text-sm text-muted-foreground">
             <a href="/methodology" className="text-success hover:underline">
-              Our ranking methodology and selection process →
+              Our ranking methodology and broker verification process →
             </a>
           </div>
         </div>

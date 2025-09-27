@@ -10,19 +10,19 @@
   "hero": {
     "title": "Find the Most Trusted Forex Brokers",
     "subtitle": "Professional reviews, comprehensive analysis, and expert recommendations to help you choose the right broker for your trading journey.",
-    "cta": "View Top Brokers"
+    "cta": "Compare Verified Brokers"
   },
   "brokers": {
-    "title": "Top Rated Brokers",
-    "viewProfile": "View Profile",
-    "regulated": "Regulated",
+    "title": "Top 10 Most Trusted Forex Brokers",
+    "viewProfile": "View Broker Details",
+    "regulated": "VERIFIED",
     "minDeposit": "Min Deposit",
     "spread": "Spread",
-    "leverage": "Leverage"
+    "leverage": "Max Leverage"
   },
   "blog": {
     "title": "Latest Forex News & Analysis",
-    "readMore": "Read More"
+    "readMore": "Read Full Guide"
   },
   "categories": {
     "title": "Browse by Category",
@@ -33,16 +33,16 @@
   },
   "team": {
     "title": "Meet Our Expert Team",
-    "subtitle": "Professional analysts and traders with years of experience in the forex market"
+    "subtitle": "Professional analysts and traders with years of experience verifying broker safety, analyzing regulation compliance, and testing trading platforms to help you choose the most trusted forex brokers."
   },
   "newsletter": {
-    "title": "Stay Updated",
-    "subtitle": "Get the latest forex news and broker reviews delivered to your inbox",
-    "placeholder": "Enter your email",
-    "subscribe": "Subscribe Now"
+    "title": "Stay Updated on Trusted Brokers",
+    "subtitle": "Get the latest verified broker reviews, safety alerts, and regulatory updates delivered to your inbox",
+    "placeholder": "Enter your email address",
+    "subscribe": "Get Broker Updates"
   },
   "footer": {
-    "description": "Your trusted source for forex broker reviews and trading insights.",
+    "description": "Your trusted source for verified, regulated forex broker reviews and safety analysis. We help traders find the most trustworthy brokers with proper licensing and investor protection.",
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "followUs": "Follow Us",
