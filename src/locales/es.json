@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "brokers": "Brókers",
+    "reviews": "Reseñas",
+    "news": "Noticias",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Encuentra los Brókers Forex Más Confiables",
+    "subtitle": "Reseñas profesionales, análisis completos y recomendaciones de expertos para ayudarte a elegir el bróker adecuado para tu viaje de trading.",
+    "cta": "Ver Mejores Brókers"
+  },
+  "brokers": {
+    "title": "Brókers Mejor Calificados",
+    "viewProfile": "Ver Perfil",
+    "regulated": "Regulado",
+    "minDeposit": "Depósito Mín.",
+    "spread": "Spread",
+    "leverage": "Apalancamiento"
+  },
+  "blog": {
+    "title": "Últimas Noticias y Análisis Forex",
+    "readMore": "Leer Más"
+  },
+  "categories": {
+    "title": "Explorar por Categoría",
+    "bestBrokers": "Mejores Brókers",
+    "forexSignals": "Señales Forex",
+    "tradingStrategies": "Estrategias de Trading",
+    "marketAnalysis": "Análisis de Mercado"
+  },
+  "team": {
+    "title": "Conoce Nuestro Equipo de Expertos",
+    "subtitle": "Analistas profesionales y traders con años de experiencia en el mercado forex"
+  },
+  "newsletter": {
+    "title": "Mantente Actualizado",
+    "subtitle": "Recibe las últimas noticias forex y reseñas de brókers en tu bandeja de entrada",
+    "placeholder": "Ingresa tu email",
+    "subscribe": "Suscribirse Ahora"
+  },
+  "footer": {
+    "description": "Tu fuente confiable para reseñas de brókers forex e insights de trading.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "copyright": "© 2024 BrokerTrusted. Todos los derechos reservados."
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "tryAgain": "Intentar de Nuevo",
+    "close": "Cerrar"
+  }
+}

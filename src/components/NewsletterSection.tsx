@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Mail, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -6,6 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 
 export function NewsletterSection() {
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [isSubscribed, setIsSubscribed] = useState(false);
   const { toast } = useToast();
@@ -37,10 +39,10 @@ export function NewsletterSection() {
                 <Mail className="w-8 h-8 text-success" />
               </div>
               <h2 className="text-2xl font-bold text-foreground mb-2">
-                Stay Informed
+                {t("newsletter.title")}
               </h2>
               <p className="text-muted-foreground">
-                Latest broker reviews & investing news directly in your inbox
+                {t("newsletter.subtitle")}
               </p>
             </div>
 
@@ -48,7 +50,7 @@ export function NewsletterSection() {
               <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
                 <Input
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder={t("newsletter.placeholder")}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="flex-1"
@@ -58,7 +60,7 @@ export function NewsletterSection() {
                   type="submit"
                   className="bg-success hover:bg-success/90 text-success-foreground shadow-success px-8"
                 >
-                  Subscribe
+                  {t("newsletter.subscribe")}
                 </Button>
               </form>
             ) : (

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { TrendingUp, Facebook, Twitter, Linkedin, Youtube, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -47,6 +48,7 @@ const footerLinks = {
 };
 
 export function Footer() {
+  const { t } = useTranslation();
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
@@ -65,9 +67,7 @@ export function Footer() {
               </div>
               
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-                The definitive source for forex broker reviews and rankings. 
-                We provide unbiased, comprehensive analysis to help traders make 
-                informed decisions in the forex market.
+                {t("footer.description")}
               </p>
               
               {/* Contact Info */}
@@ -195,7 +195,7 @@ export function Footer() {
             </div>
             
             <div className="text-sm text-primary-foreground/80">
-              © 2024 BrokersTrusted.com. All rights reserved.
+              {t("footer.copyright")}
             </div>
           </div>
         </div>

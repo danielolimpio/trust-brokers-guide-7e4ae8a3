@@ -1,4 +1,5 @@
 import { ArrowRight, Users, Gift, Clock, TrendingUp } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -44,12 +45,13 @@ const categories = [
 ];
 
 export function TopCategoriesSection() {
+  const { t } = useTranslation();
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Top Categories
+            {t("categories.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Discover curated lists of the best brokers for specific trading needs and preferences

@@ -1,40 +1,42 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight, Shield, TrendingUp, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import heroFinance from "@/assets/hero-finance.jpg";
 
-const slides = [
-  {
-    id: 1,
-    title: "Discover the World's Most Trusted Forex Brokers",
-    subtitle: "Expert Analysis, Unbiased Reviews, Trusted Rankings",
-    description: "Our comprehensive evaluation process ensures you find the most reliable trading partners for your financial journey.",
-    cta: "View Top Brokers",
-    image: heroFinance,
-    features: [
-      { icon: Shield, text: "Regulatory Compliance" },
-      { icon: TrendingUp, text: "Performance Tracking" },
-      { icon: Users, text: "Community Reviews" },
-    ],
-  },
-  {
-    id: 2,
-    title: "Independent Broker Reviews Since 2020",
-    subtitle: "Transparency • Integrity • Excellence",
-    description: "Over 500+ brokers analyzed with detailed performance metrics, regulatory compliance, and real trader feedback.",
-    cta: "Read Our Methodology",
-    image: heroFinance,
-    features: [
-      { icon: Shield, text: "500+ Brokers Analyzed" },
-      { icon: TrendingUp, text: "Real-Time Updates" },
-      { icon: Users, text: "50,000+ Reviews" },
-    ],
-  },
-];
-
 export function HeroBanner() {
+  const { t } = useTranslation();
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  const slides = [
+    {
+      id: 1,
+      title: t("hero.title"),
+      subtitle: "Expert Analysis, Unbiased Reviews, Trusted Rankings",
+      description: t("hero.subtitle"),
+      cta: t("hero.cta"),
+      image: heroFinance,
+      features: [
+        { icon: Shield, text: "Regulatory Compliance" },
+        { icon: TrendingUp, text: "Performance Tracking" },
+        { icon: Users, text: "Community Reviews" },
+      ],
+    },
+    {
+      id: 2,
+      title: "Independent Broker Reviews Since 2020",
+      subtitle: "Transparency • Integrity • Excellence",
+      description: "Over 500+ brokers analyzed with detailed performance metrics, regulatory compliance, and real trader feedback.",
+      cta: "Read Our Methodology",
+      image: heroFinance,
+      features: [
+        { icon: Shield, text: "500+ Brokers Analyzed" },
+        { icon: TrendingUp, text: "Real-Time Updates" },
+        { icon: Users, text: "50,000+ Reviews" },
+      ],
+    },
+  ];
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -42,7 +44,7 @@ export function HeroBanner() {
     }, 6000);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [slides.length]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);

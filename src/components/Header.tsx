@@ -1,96 +1,95 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, TrendingUp } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { cn } from "@/lib/utils";
-
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Best Brokers", href: "/best-brokers" },
-  { name: "Best Bonus", href: "/best-bonus" },
-  { name: "New Brokers", href: "/new-brokers" },
-  { name: "Best Traders", href: "/best-traders" },
-  { name: "Contact", href: "/contact" },
-];
+import { LanguageSelector } from "@/components/LanguageSelector";
 
 export function Header() {
+  const { t } = useTranslation();
   const location = useLocation();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const navigation = [
+    { name: t("nav.home"), href: "/" },
+    { name: t("nav.about"), href: "/about" },
+    { name: t("nav.brokers"), href: "/brokers" },
+    { name: t("nav.reviews"), href: "/reviews" },
+    { name: t("nav.news"), href: "/news" },
+    { name: t("nav.contact"), href: "/contact" },
+  ];
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
-          <div className="flex items-center">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-success">
-                <TrendingUp className="h-5 w-5 text-success-foreground" />
-              </div>
-              <span className="text-xl font-bold text-foreground">
-                Brokers<span className="text-success">Trusted</span>
-              </span>
-            </Link>
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div className="flex lg:flex-1">
+          <Link to="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">BrokerTrusted</span>
+            <div className="h-8 w-auto text-2xl font-bold text-primary">BrokerTrusted</div>
+          </Link>
+        </div>
+
+        <div className="flex lg:gap-x-12">
+          <div className="flex items-center gap-8">
+            <nav className="hidden md:flex md:gap-x-8">
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className={`text-sm font-semibold leading-6 transition-colors ${
+                    location.pathname === item.href
+                      ? "text-primary"
+                      : "text-foreground hover:text-primary"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              ))}
+            </nav>
+            <div className="hidden md:flex">
+              <LanguageSelector />
+            </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                to={item.href}
-                className={cn(
-                  "text-sm font-medium transition-colors hover:text-success",
-                  location.pathname === item.href
-                    ? "text-success"
-                    : "text-muted-foreground"
-                )}
-              >
-                {item.name}
-              </Link>
-            ))}
-          </nav>
-
-          {/* Mobile Navigation */}
-          <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
-            <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="sm">
-                <Menu className="h-5 w-5" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
-              <div className="flex flex-col space-y-4 py-4">
-                <div className="flex items-center space-x-2 pb-4 border-b">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-success">
-                    <TrendingUp className="h-5 w-5 text-success-foreground" />
-                  </div>
-                  <span className="text-xl font-bold text-foreground">
-                    Brokers<span className="text-success">Trusted</span>
-                  </span>
-                </div>
-                <nav className="flex flex-col space-y-2">
-                  {navigation.map((item) => (
-                    <Link
-                      key={item.name}
-                      to={item.href}
-                      onClick={() => setMobileMenuOpen(false)}
-                      className={cn(
-                        "px-4 py-2 text-sm font-medium rounded-md transition-colors hover:bg-muted",
-                        location.pathname === item.href
-                          ? "text-success bg-success-light"
-                          : "text-muted-foreground"
-                      )}
-                    >
-                      {item.name}
+          <div className="flex items-center gap-2 md:hidden">
+            <LanguageSelector />
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+              <SheetTrigger asChild>
+                <Button variant="outline" size="icon">
+                  <Menu className="h-6 w-6" />
+                  <span className="sr-only">Open main menu</span>
+                </Button>
+              </SheetTrigger>
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+                <nav className="flex flex-col gap-6">
+                  <div className="flex items-center">
+                    <Link to="/" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
+                      <span className="text-xl font-bold text-primary">BrokerTrusted</span>
                     </Link>
-                  ))}
+                  </div>
+                  <div className="mt-6 flow-root">
+                    <div className="-my-6 divide-y divide-gray-500/10">
+                      <div className="space-y-2 py-6">
+                        {navigation.map((item) => (
+                          <Link
+                            key={item.name}
+                            to={item.href}
+                            className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-foreground hover:bg-muted"
+                            onClick={() => setMobileMenuOpen(false)}
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 </nav>
-              </div>
-            </SheetContent>
-          </Sheet>
+              </SheetContent>
+            </Sheet>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
   );
 }

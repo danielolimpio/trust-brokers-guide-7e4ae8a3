@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "brokers": "Brokers",
+    "reviews": "Reviews",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Find the Most Trusted Forex Brokers",
+    "subtitle": "Professional reviews, comprehensive analysis, and expert recommendations to help you choose the right broker for your trading journey.",
+    "cta": "View Top Brokers"
+  },
+  "brokers": {
+    "title": "Top Rated Brokers",
+    "viewProfile": "View Profile",
+    "regulated": "Regulated",
+    "minDeposit": "Min Deposit",
+    "spread": "Spread",
+    "leverage": "Leverage"
+  },
+  "blog": {
+    "title": "Latest Forex News & Analysis",
+    "readMore": "Read More"
+  },
+  "categories": {
+    "title": "Browse by Category",
+    "bestBrokers": "Best Brokers",
+    "forexSignals": "Forex Signals",
+    "tradingStrategies": "Trading Strategies",
+    "marketAnalysis": "Market Analysis"
+  },
+  "team": {
+    "title": "Meet Our Expert Team",
+    "subtitle": "Professional analysts and traders with years of experience in the forex market"
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Get the latest forex news and broker reviews delivered to your inbox",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe Now"
+  },
+  "footer": {
+    "description": "Your trusted source for forex broker reviews and trading insights.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 BrokerTrusted. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "tryAgain": "Try Again",
+    "close": "Close"
+  }
+}

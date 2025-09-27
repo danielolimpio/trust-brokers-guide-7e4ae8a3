@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronDown, Filter, Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -24,6 +25,7 @@ const orderOptions = [
 ];
 
 export function BrokerRanking() {
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCountry, setSelectedCountry] = useState("All Countries");
   const [selectedRating, setSelectedRating] = useState("All Ratings");
@@ -89,7 +91,7 @@ export function BrokerRanking() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Top 10 Most Trusted Forex Brokers
+            {t("brokers.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Our expert-reviewed rankings of the most reliable and trustworthy Forex brokers, 

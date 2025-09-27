@@ -1,4 +1,5 @@
 import { Clock, ArrowRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -57,12 +58,13 @@ const blogPosts = [
 ];
 
 export function BlogSection() {
+  const { t } = useTranslation();
   return (
     <section className="py-16 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Latest Blog Posts
+            {t("blog.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Stay updated with the latest insights, analysis, and guides from our trading experts.
@@ -98,7 +100,7 @@ export function BlogSection() {
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-muted-foreground">{post.date}</span>
                   <Button variant="ghost" size="sm" className="text-success hover:text-success/80">
-                    Read More
+                    {t("blog.readMore")}
                     <ArrowRight className="h-4 w-4 ml-1" />
                   </Button>
                 </div>

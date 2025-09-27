@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Twitter, Globe } from "lucide-react";
 import expertImage from "@/assets/team/expert1.jpg";
@@ -56,17 +57,16 @@ const teamMembers = [
 ];
 
 export function TeamSection() {
+  const { t } = useTranslation();
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">
-            Who We Are
+            {t("team.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-            Our team of industry experts brings decades of combined experience in forex trading, 
-            financial regulation, and broker analysis. We're committed to providing unbiased, 
-            comprehensive reviews to help you make informed trading decisions.
+            {t("team.subtitle")}
           </p>
           
           {/* Trust Indicators */}
