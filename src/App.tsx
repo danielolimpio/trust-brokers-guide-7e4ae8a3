@@ -10,14 +10,11 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import BrokerReview from "./pages/BrokerReview";
 import NotFound from "./pages/NotFound";
-import AdminLayout from "./components/admin/AdminLayout";
 import AdminLogin from "./pages/admin/AdminLogin";
-import Dashboard from "./pages/admin/Dashboard";
-import SEOSettings from "./pages/admin/SEOSettings";
-import PostManagement from "./pages/admin/PostManagement";
-import Categories from "./pages/admin/Categories";
+import UnifiedAdmin from "./pages/admin/UnifiedAdmin";
 import Brokers from "./pages/Brokers";
 import NewsBrokers from "./pages/NewsBrokers";
+import Blog from "./pages/Blog";
 
 
 const queryClient = new QueryClient();
@@ -35,15 +32,13 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
             <Route path="/broker/:brokerId" element={<BrokerReview />} />
+            <Route path="/brokers" element={<Brokers />} />
+            <Route path="/news" element={<NewsBrokers />} />
+            <Route path="/blog" element={<Blog />} />
             
             {/* Admin Routes */}
             <Route path="/admin/login" element={<AdminLogin />} />
-            <Route path="/admin" element={<AdminLayout />}>
-              <Route index element={<Dashboard />} />
-              <Route path="seo" element={<SEOSettings />} />
-              <Route path="posts" element={<PostManagement />} />
-              <Route path="categories" element={<Categories />} />
-            </Route>
+            <Route path="/admin" element={<UnifiedAdmin />} />
             
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
