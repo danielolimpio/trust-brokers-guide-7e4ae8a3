@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Badge } from "@/components/ui/badge";
 import { BrokerCard } from "./BrokerCard";
 import { brokers } from "@/data/brokers";
+import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const filterOptions = {
@@ -273,6 +274,13 @@ export function BrokerRanking() {
             </Button>
           </div>
         )}
+
+        {/* View All Brokers Button */}
+        <div className="text-center mt-6">
+          <Link to="/brokers" aria-label="Ver todas as corretoras">
+            <Button size="lg" className="px-8">Ver Todas</Button>
+          </Link>
+        </div>
       </div>
     </section>
   );

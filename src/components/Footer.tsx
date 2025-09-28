@@ -28,7 +28,7 @@ const footerLinks = {
     { name: "Market Analysis", href: "/analysis" },
     { name: "Educational Content", href: "/education" },
     { name: "Forex News", href: "/news" },
-    { name: "Trading Tools", href: "/tools" },
+    { name: "Blog", href: "/blog" },
   ],
   company: [
     { name: "About Us", href: "/about" },
@@ -195,7 +195,8 @@ export function Footer() {
             </div>
             
             <div className="text-sm text-primary-foreground/80">
-              {t("footer.copyright")}
+              © 2025 Copyright | BrokerTrusted | All rights reserved | Developed by 
+              <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer" className="underline ml-1">DanielOlimpio</a>
             </div>
           </div>
         </div>

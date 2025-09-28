@@ -11,7 +11,7 @@ export function HeroBanner() {
 
   const slideContent = {
     en: {
-      h1: "BrokerTrusted – Verified & Regulated Forex Brokers You Can Trust",
+      h1: "Trusted Broker – Verified & Regulated Forex Brokers You Can Trust",
       subtitle: "Independent Reviews • Regulatory Verification • Safety First",
       description: "Find the safest, most trusted forex brokers in 2025. Our expert team analyzes regulation, spreads, fees, and safety to help you choose the right trading partner.",
       cta: "Compare Verified Brokers",
@@ -55,7 +55,7 @@ export function HeroBanner() {
     },
     {
       id: 2,
-      h1: "Independent Broker Reviews Since 2020",
+      h1: "Independent Broker Reviews Since 2016",
       subtitle: "Transparency • Integrity • Excellence",
       description: "Over 500+ brokers analyzed with detailed performance metrics, regulatory compliance checks, and real trader feedback from verified accounts.",
       cta: "Read Our Methodology",

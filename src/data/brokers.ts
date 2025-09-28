@@ -19,6 +19,7 @@ export interface Broker {
   country: string;
   bonuses: boolean;
   investorProtection: string;
+  foundedYear: number;
 }
 
 export const brokers: Broker[] = [
@@ -37,6 +38,7 @@ export const brokers: Broker[] = [
     regulation: "FCA, FSCA, CySEC",
     tradingPlatforms: ["MT4", "MT5", "Exness Terminal"],
     country: "Cyprus",
+    foundedYear: 2008,
     bonuses: true,
     investorProtection: "Up to €20,000",
   },
@@ -55,6 +57,7 @@ export const brokers: Broker[] = [
     regulation: "FCA, CySEC, FSCA, SCB",
     tradingPlatforms: ["MT4", "MT5", "cTrader", "FxPro Edge"],
     country: "Cyprus",
+    foundedYear: 2006,
     bonuses: false,
     investorProtection: "Up to €20,000",
   },
@@ -73,6 +76,7 @@ export const brokers: Broker[] = [
     regulation: "ASIC, FSA, CySEC",
     tradingPlatforms: ["MT4", "MT5", "cTrader"],
     country: "Australia",
+    foundedYear: 2007,
     bonuses: false,
     investorProtection: "Up to $1M AUD",
   },
@@ -91,6 +95,7 @@ export const brokers: Broker[] = [
     regulation: "FCA, ASIC, CySEC",
     tradingPlatforms: ["MT4", "MT5"],
     country: "Cyprus",
+    foundedYear: 2009,
     bonuses: true,
     investorProtection: "Up to €20,000",
   },
@@ -109,6 +114,7 @@ export const brokers: Broker[] = [
     regulation: "FSA, SVGFSA",
     tradingPlatforms: ["MT4", "MT5"],
     country: "Vanuatu",
+    foundedYear: 2015,
     bonuses: false,
     investorProtection: "100% Deposit Matched",
   },
@@ -127,6 +133,7 @@ export const brokers: Broker[] = [
     regulation: "CySEC, FSC",
     tradingPlatforms: ["Libertex", "MT4", "MT5"],
     country: "Cyprus",
+    foundedYear: 1997,
     bonuses: true,
     investorProtection: "Up to €20,000",
   },
@@ -145,6 +152,7 @@ export const brokers: Broker[] = [
     regulation: "CFTC, NFA, FCA, ASIC",
     tradingPlatforms: ["MT4", "TradingView", "Web Platform"],
     country: "USA",
+    foundedYear: 2001,
     bonuses: false,
     investorProtection: "SIPC Coverage",
   },
@@ -163,6 +171,7 @@ export const brokers: Broker[] = [
     regulation: "FCA, ASIC",
     tradingPlatforms: ["AT Pro", "MT4", "Mobile Apps"],
     country: "UK",
+    foundedYear: 1983,
     bonuses: false,
     investorProtection: "Up to £85,000",
   },
@@ -181,6 +190,7 @@ export const brokers: Broker[] = [
     regulation: "FCA, DFSA, CMA",
     tradingPlatforms: ["MT4", "MT5", "HY Mobile"],
     country: "UK",
+    foundedYear: 1977,
     bonuses: false,
     investorProtection: "Up to £1M",
   },
@@ -199,6 +209,7 @@ export const brokers: Broker[] = [
     regulation: "VFSC, FSA",
     tradingPlatforms: ["MT4", "MT5"],
     country: "Vanuatu",
+    foundedYear: 2008,
     bonuses: true,
     investorProtection: "Up to $20,000",
   },

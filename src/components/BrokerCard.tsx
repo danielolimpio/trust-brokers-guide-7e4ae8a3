@@ -22,6 +22,7 @@ interface BrokerCardProps {
   maxLeverage?: string;
   regulation?: string;
   tradingPlatforms?: string[];
+  foundedYear?: number;
 }
 
 export function BrokerCard({
@@ -38,6 +39,7 @@ export function BrokerCard({
   maxLeverage,
   regulation,
   tradingPlatforms = [],
+  foundedYear,
 }: BrokerCardProps) {
   const { t } = useTranslation();
   const [isExpanded, setIsExpanded] = useState(false);
@@ -164,6 +166,15 @@ export function BrokerCard({
                     </Badge>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {foundedYear && (
+              <div className="mt-4">
+                <p className="text-sm text-muted-foreground mb-1">Founded / Age</p>
+                <p className="font-semibold text-foreground">
+                  {foundedYear} • {new Date().getFullYear() - foundedYear} years
+                </p>
               </div>
             )}
           </div>

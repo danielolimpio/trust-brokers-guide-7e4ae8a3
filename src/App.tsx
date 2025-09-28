@@ -16,6 +16,9 @@ import Dashboard from "./pages/admin/Dashboard";
 import SEOSettings from "./pages/admin/SEOSettings";
 import PostManagement from "./pages/admin/PostManagement";
 import Categories from "./pages/admin/Categories";
+import Brokers from "./pages/Brokers";
+import NewsBrokers from "./pages/NewsBrokers";
+
 
 const queryClient = new QueryClient();
 
