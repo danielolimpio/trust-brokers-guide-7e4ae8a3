@@ -7,11 +7,11 @@ import { Separator } from "@/components/ui/separator";
 
 const footerLinks = {
   brokers: [
-    { name: "Best Forex Brokers", href: "/best-brokers" },
-    { name: "Top Regulated Brokers", href: "/regulated-brokers" },
+    { name: "Best Forex Brokers", href: "/best-forex-brokers" },
+    { name: "Top Regulated Brokers", href: "/top-regulated-brokers" },
     { name: "Best Spreads", href: "/best-spreads" },
     { name: "Highest Leverage", href: "/highest-leverage" },
-    { name: "Best Bonuses", href: "/best-bonus" },
+    { name: "Best Bonuses", href: "/best-bonuses" },
     { name: "New Brokers", href: "/new-brokers" },
   ],
   categories: [
