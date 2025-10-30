@@ -15,9 +15,9 @@ const footerLinks = {
     { name: "New Brokers", href: "/new-brokers" },
   ],
   categories: [
-    { name: "Best for Beginners", href: "/beginners" },
-    { name: "Best for Professionals", href: "/professionals" },
-    { name: "Best Mobile Apps", href: "/mobile-apps" },
+    { name: "Best for Beginners", href: "/best-for-beginners" },
+    { name: "Best for Professionals", href: "/best-for-professionals" },
+    { name: "Best Mobile Apps", href: "/best-mobile-apps" },
     { name: "ECN Brokers", href: "/ecn-brokers" },
     { name: "STP Brokers", href: "/stp-brokers" },
     { name: "Market Makers", href: "/market-makers" },

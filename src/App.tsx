@@ -22,6 +22,12 @@ import BestSpreads from "./pages/BestSpreads";
 import HighestLeverage from "./pages/HighestLeverage";
 import BestBonuses from "./pages/BestBonuses";
 import NewBrokers from "./pages/NewBrokers";
+import BestForBeginners from "./pages/BestForBeginners";
+import BestForProfessionals from "./pages/BestForProfessionals";
+import BestMobileApps from "./pages/BestMobileApps";
+import ECNBrokers from "./pages/ECNBrokers";
+import STPBrokers from "./pages/STPBrokers";
+import MarketMakers from "./pages/MarketMakers";
 
 
 const queryClient = new QueryClient();
@@ -51,6 +57,12 @@ const App = () => (
             <Route path="/highest-leverage" element={<HighestLeverage />} />
             <Route path="/best-bonuses" element={<BestBonuses />} />
             <Route path="/new-brokers" element={<NewBrokers />} />
+            <Route path="/best-for-beginners" element={<BestForBeginners />} />
+            <Route path="/best-for-professionals" element={<BestForProfessionals />} />
+            <Route path="/best-mobile-apps" element={<BestMobileApps />} />
+            <Route path="/ecn-brokers" element={<ECNBrokers />} />
+            <Route path="/stp-brokers" element={<STPBrokers />} />
+            <Route path="/market-makers" element={<MarketMakers />} />
             
             {/* Admin Routes */}
             <Route path="/admin/login" element={<AdminLogin />} />
