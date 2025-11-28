@@ -1,6 +1,13 @@
-import exnessLogo from "@/assets/brokers/exness-logo.png";
-import fxproLogo from "@/assets/brokers/fxpro-logo.png";
-import icmarketsLogo from "@/assets/brokers/icmarkets-logo.png";
+import exnessLogo from "@/assets/brokers/exness.jpeg";
+import fxproLogo from "@/assets/brokers/fxpro.jpeg";
+import icmarketsLogo from "@/assets/brokers/ic-markets.jpeg";
+import hfmLogo from "@/assets/brokers/hfm.jpeg";
+import fpMarketsLogo from "@/assets/brokers/fp-markets.jpeg";
+import pepperstoneLogo from "@/assets/brokers/pepperstone.jpeg";
+import xmLogo from "@/assets/brokers/xm.jpeg";
+import avatradeLogo from "@/assets/brokers/avatrade.jpeg";
+import oandaLogo from "@/assets/brokers/oanda.jpeg";
+import interactiveBrokersLogo from "@/assets/brokers/interactive-brokers.jpeg";
 
 export interface Broker {
   id: string;
@@ -46,7 +53,7 @@ export const brokers: Broker[] = [
     id: "fp-markets",
     rank: 2,
     name: "FP Markets",
-    logo: fxproLogo,
+    logo: fpMarketsLogo,
     rating: 4.8,
     maxRating: 5,
     keyStrength: "Best Overall Trading Conditions",
@@ -84,7 +91,7 @@ export const brokers: Broker[] = [
     id: "pepperstone",
     rank: 4,
     name: "Pepperstone",
-    logo: icmarketsLogo,
+    logo: pepperstoneLogo,
     rating: 4.7,
     maxRating: 5,
     keyStrength: "Best for Active Traders",
@@ -103,7 +110,7 @@ export const brokers: Broker[] = [
     id: "xm",
     rank: 5,
     name: "XM Group",
-    logo: exnessLogo,
+    logo: xmLogo,
     rating: 4.6,
     maxRating: 5,
     keyStrength: "Best for Beginners with Bonuses",
@@ -122,7 +129,7 @@ export const brokers: Broker[] = [
     id: "hfm",
     rank: 6,
     name: "HFM (HotForex)",
-    logo: fxproLogo,
+    logo: hfmLogo,
     rating: 4.6,
     maxRating: 5,
     keyStrength: "Best Customer Service",
@@ -160,7 +167,7 @@ export const brokers: Broker[] = [
     id: "avatrade",
     rank: 8,
     name: "AvaTrade",
-    logo: exnessLogo,
+    logo: avatradeLogo,
     rating: 4.5,
     maxRating: 5,
     keyStrength: "Best for Automated Trading",
@@ -179,7 +186,7 @@ export const brokers: Broker[] = [
     id: "oanda",
     rank: 9,
     name: "OANDA",
-    logo: icmarketsLogo,
+    logo: oandaLogo,
     rating: 4.5,
     maxRating: 5,
     keyStrength: "Most Trusted by Professionals",
@@ -198,7 +205,7 @@ export const brokers: Broker[] = [
     id: "interactive-brokers",
     rank: 10,
     name: "Interactive Brokers",
-    logo: fxproLogo,
+    logo: interactiveBrokersLogo,
     rating: 4.5,
     maxRating: 5,
     keyStrength: "Best for Professional Traders",
