@@ -35,7 +35,7 @@ export function BrokerRanking() {
   const [selectedProtection, setSelectedProtection] = useState("All");
   const [orderBy, setOrderBy] = useState("recommended");
   const [showMoreFilters, setShowMoreFilters] = useState(false);
-  const [displayCount, setDisplayCount] = useState(10);
+  const [displayCount, setDisplayCount] = useState(5);
 
   // Filter brokers based on selected criteria
   const filteredBrokers = brokers.filter((broker) => {
