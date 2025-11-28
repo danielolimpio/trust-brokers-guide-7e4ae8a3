@@ -13,7 +13,11 @@ const categories = [
     icon: Users,
     color: "text-blue-600",
     bgColor: "bg-blue-50",
-    topBrokers: brokers.slice(0, 3).map(broker => ({ ...broker, reason: "Low min deposit" })),
+    topBrokers: [
+      { ...brokers.find(b => b.id === "xm")!, reason: "$5 min deposit + $30 bonus" },
+      { ...brokers.find(b => b.id === "exness")!, reason: "$1 min deposit" },
+      { ...brokers.find(b => b.id === "fxtm")!, reason: "Free education + $10 deposit" },
+    ],
   },
   {
     id: "bonuses",
@@ -22,7 +26,11 @@ const categories = [
     icon: Gift,
     color: "text-purple-600",
     bgColor: "bg-purple-50",
-    topBrokers: brokers.filter(b => b.bonuses).slice(0, 3).map(broker => ({ ...broker, reason: "100% bonus" })),
+    topBrokers: [
+      { ...brokers.find(b => b.id === "xm")!, reason: "$30 No Deposit Bonus" },
+      { ...brokers.find(b => b.id === "hfm")!, reason: "20% Deposit Bonus" },
+      { ...brokers.find(b => b.id === "avatrade")!, reason: "Welcome Bonus + Signals" },
+    ],
   },
   {
     id: "newest",
@@ -31,7 +39,11 @@ const categories = [
     icon: Clock,
     color: "text-green-600",
     bgColor: "bg-green-50",
-    topBrokers: brokers.slice(3, 6).map(broker => ({ ...broker, reason: "Est. 2024" })),
+    topBrokers: [
+      { ...brokers.find(b => b.id === "tickmill")!, reason: "Est. 2014 - Modern ECN" },
+      { ...brokers.find(b => b.id === "fxtm")!, reason: "Est. 2011 - Fast Growing" },
+      { ...brokers.find(b => b.id === "pepperstone")!, reason: "Est. 2010 - Tech Leader" },
+    ],
   },
   {
     id: "algorithmic",
@@ -40,7 +52,11 @@ const categories = [
     icon: TrendingUp,
     color: "text-orange-600",
     bgColor: "bg-orange-50",
-    topBrokers: brokers.slice(1, 4).map(broker => ({ ...broker, reason: "API access" })),
+    topBrokers: [
+      { ...brokers.find(b => b.id === "interactive-brokers")!, reason: "Advanced API" },
+      { ...brokers.find(b => b.id === "oanda")!, reason: "REST & FIX API" },
+      { ...brokers.find(b => b.id === "avatrade")!, reason: "Auto Trading Tools" },
+    ],
   },
 ];
 
