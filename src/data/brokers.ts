@@ -8,6 +8,15 @@ import xmLogo from "@/assets/brokers/xm.jpeg";
 import avatradeLogo from "@/assets/brokers/avatrade.jpeg";
 import oandaLogo from "@/assets/brokers/oanda.jpeg";
 import interactiveBrokersLogo from "@/assets/brokers/interactive-brokers.jpeg";
+import eightcapLogo from "@/assets/brokers/eightcap.jpeg";
+import igGroupLogo from "@/assets/brokers/ig-group.jpeg";
+import saxoBankLogo from "@/assets/brokers/saxo-bank.jpeg";
+import cmcMarketsLogo from "@/assets/brokers/cmc-markets.jpeg";
+import tickmillLogo from "@/assets/brokers/tickmill.jpeg";
+import fxtmLogo from "@/assets/brokers/fxtm.jpeg";
+import admiralsLogo from "@/assets/brokers/admirals.jpeg";
+import plus500Logo from "@/assets/brokers/plus500.jpeg";
+import etoroLogo from "@/assets/brokers/etoro.jpeg";
 
 export interface Broker {
   id: string;
@@ -224,7 +233,7 @@ export const brokers: Broker[] = [
     id: "eightcap",
     rank: 11,
     name: "Eightcap",
-    logo: exnessLogo,
+    logo: eightcapLogo,
     rating: 4.5,
     maxRating: 5,
     keyStrength: "Best Trading Technology",
@@ -243,7 +252,7 @@ export const brokers: Broker[] = [
     id: "ig-group",
     rank: 12,
     name: "IG Group",
-    logo: icmarketsLogo,
+    logo: igGroupLogo,
     rating: 4.4,
     maxRating: 5,
     keyStrength: "Longest Established Broker",
@@ -262,7 +271,7 @@ export const brokers: Broker[] = [
     id: "saxo-bank",
     rank: 13,
     name: "Saxo Bank",
-    logo: fxproLogo,
+    logo: saxoBankLogo,
     rating: 4.4,
     maxRating: 5,
     keyStrength: "Best for Institutional Trading",
@@ -281,7 +290,7 @@ export const brokers: Broker[] = [
     id: "cmc-markets",
     rank: 14,
     name: "CMC Markets",
-    logo: exnessLogo,
+    logo: cmcMarketsLogo,
     rating: 4.4,
     maxRating: 5,
     keyStrength: "Best Proprietary Platform",
@@ -300,7 +309,7 @@ export const brokers: Broker[] = [
     id: "tickmill",
     rank: 15,
     name: "Tickmill",
-    logo: icmarketsLogo,
+    logo: tickmillLogo,
     rating: 4.4,
     maxRating: 5,
     keyStrength: "Best Pricing Transparency",
@@ -319,7 +328,7 @@ export const brokers: Broker[] = [
     id: "fxtm",
     rank: 16,
     name: "FXTM (ForexTime)",
-    logo: fxproLogo,
+    logo: fxtmLogo,
     rating: 4.3,
     maxRating: 5,
     keyStrength: "Best Educational Resources",
@@ -338,7 +347,7 @@ export const brokers: Broker[] = [
     id: "thinkmarkets",
     rank: 17,
     name: "ThinkMarkets",
-    logo: exnessLogo,
+    logo: icmarketsLogo,
     rating: 4.3,
     maxRating: 5,
     keyStrength: "Best Trading Infrastructure",
@@ -357,7 +366,7 @@ export const brokers: Broker[] = [
     id: "admiral-markets",
     rank: 18,
     name: "Admiral Markets",
-    logo: icmarketsLogo,
+    logo: admiralsLogo,
     rating: 4.3,
     maxRating: 5,
     keyStrength: "Best Trading Education Platform",
@@ -376,7 +385,7 @@ export const brokers: Broker[] = [
     id: "plus500",
     rank: 19,
     name: "Plus500",
-    logo: fxproLogo,
+    logo: plus500Logo,
     rating: 4.2,
     maxRating: 5,
     keyStrength: "Best for CFD Trading",
@@ -395,7 +404,7 @@ export const brokers: Broker[] = [
     id: "etoro",
     rank: 20,
     name: "eToro",
-    logo: exnessLogo,
+    logo: etoroLogo,
     rating: 4.2,
     maxRating: 5,
     keyStrength: "Best Social Trading Platform",
