@@ -51,8 +51,8 @@ export function BrokerCard({
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
             {/* Rank */}
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary text-primary-foreground font-bold text-lg">
-              {rank}
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground font-semibold text-sm">
+              {rank}º
             </div>
 
             {/* Logo and Info */}
@@ -61,7 +61,7 @@ export function BrokerCard({
                 <img
                   src={logo}
                   alt={`${name} regulated forex broker logo - ${regulation} licensed with ${rating}/5 rating`}
-                  className="h-12 w-12 rounded-lg object-contain bg-white p-1 group-hover:shadow-card transition-shadow"
+                  className="h-20 w-20 rounded-lg object-contain bg-white p-2 group-hover:shadow-card transition-shadow"
                   loading="lazy"
                 />
               </Link>
