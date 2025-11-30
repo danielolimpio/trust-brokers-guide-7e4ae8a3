@@ -158,7 +158,7 @@ export function HeroBanner() {
                     <Button
                       variant="outline"
                       size="lg"
-                      className="border-white/30 text-white hover:bg-white/10 px-8 py-4"
+                      className="border-white bg-white text-primary hover:bg-white/90 px-8 py-4"
                       aria-label="Learn how we verify broker safety and regulation"
                     >
                       Check Broker Safety
