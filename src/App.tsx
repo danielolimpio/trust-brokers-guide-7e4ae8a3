@@ -28,6 +28,9 @@ import BestMobileApps from "./pages/BestMobileApps";
 import ECNBrokers from "./pages/ECNBrokers";
 import STPBrokers from "./pages/STPBrokers";
 import MarketMakers from "./pages/MarketMakers";
+import BrokerReviews from "./pages/BrokerReviews";
+import TradingGuides from "./pages/TradingGuides";
+import MarketAnalysis from "./pages/MarketAnalysis";
 
 
 const queryClient = new QueryClient();
@@ -63,6 +66,11 @@ const App = () => (
             <Route path="/ecn-brokers" element={<ECNBrokers />} />
             <Route path="/stp-brokers" element={<STPBrokers />} />
             <Route path="/market-makers" element={<MarketMakers />} />
+            
+            {/* Content Pages */}
+            <Route path="/broker-reviews" element={<BrokerReviews />} />
+            <Route path="/trading-guides" element={<TradingGuides />} />
+            <Route path="/market-analysis" element={<MarketAnalysis />} />
             
             {/* Admin Routes */}
             <Route path="/admin/login" element={<AdminLogin />} />

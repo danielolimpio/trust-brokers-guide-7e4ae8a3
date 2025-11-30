@@ -14,10 +14,11 @@ export function Header() {
   const navigation = [
     { name: t("nav.home"), href: "/" },
     { name: t("nav.about"), href: "/about" },
+    { name: "Broker Reviews", href: "/broker-reviews" },
+    { name: "Trading Guides", href: "/trading-guides" },
+    { name: "Market Analysis", href: "/market-analysis" },
     { name: "Blog", href: "/blog" },
     { name: t("nav.brokers"), href: "/brokers" },
-    { name: t("nav.news"), href: "/news" },
-    { name: t("nav.contact"), href: "/contact" },
   ];
 
   return (
