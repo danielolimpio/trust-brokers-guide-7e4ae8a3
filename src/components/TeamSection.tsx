@@ -26,7 +26,7 @@ const teamMembers = [
     name: "Sarah Chen",
     title: "Financial Technology Expert",
     bio: "Former fintech executive specializing in trading platforms, payment systems, and broker technology infrastructure assessment.",
-    image: member2Image,
+    image: member3Image,
     expertise: ["Trading Platforms", "Fintech", "User Experience"],
     social: {
       linkedin: "#",
@@ -38,7 +38,7 @@ const teamMembers = [
     name: "Michael Rodriguez",
     title: "Regulatory Affairs Specialist",
     bio: "Ex-FCA regulatory expert with comprehensive knowledge of global forex regulations and investor protection frameworks.",
-    image: member3Image,
+    image: member2Image,
     expertise: ["Regulation", "Compliance", "Investor Protection"],
     social: {
       linkedin: "#",
