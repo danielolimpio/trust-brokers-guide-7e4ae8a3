@@ -2,7 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Twitter, Globe } from "lucide-react";
-import expertImage from "@/assets/team/expert1.jpg";
+import member1Image from "@/assets/team/member1.jpg";
+import member2Image from "@/assets/team/member2.jpg";
+import member3Image from "@/assets/team/member3.jpg";
+import member4Image from "@/assets/team/member4.jpg";
 
 const teamMembers = [
   {
@@ -10,7 +13,7 @@ const teamMembers = [
     name: "Jonathan Miller",
     title: "Senior Forex Analyst",
     bio: "15+ years of experience in forex markets, former Goldman Sachs trader with deep expertise in market analysis and broker evaluation.",
-    image: expertImage,
+    image: member1Image,
     expertise: ["Market Analysis", "Risk Management", "Regulatory Compliance"],
     social: {
       linkedin: "#",
@@ -23,7 +26,7 @@ const teamMembers = [
     name: "Sarah Chen",
     title: "Financial Technology Expert",
     bio: "Former fintech executive specializing in trading platforms, payment systems, and broker technology infrastructure assessment.",
-    image: expertImage,
+    image: member2Image,
     expertise: ["Trading Platforms", "Fintech", "User Experience"],
     social: {
       linkedin: "#",
@@ -35,7 +38,7 @@ const teamMembers = [
     name: "Michael Rodriguez",
     title: "Regulatory Affairs Specialist",
     bio: "Ex-FCA regulatory expert with comprehensive knowledge of global forex regulations and investor protection frameworks.",
-    image: expertImage,
+    image: member3Image,
     expertise: ["Regulation", "Compliance", "Investor Protection"],
     social: {
       linkedin: "#",
@@ -47,7 +50,7 @@ const teamMembers = [
     name: "Emma Thompson",
     title: "Trading Platform Analyst",
     bio: "Professional trader and platform specialist with extensive experience testing and reviewing forex trading software and tools.",
-    image: expertImage,
+    image: member4Image,
     expertise: ["Platform Testing", "Trading Tools", "Technical Analysis"],
     social: {
       linkedin: "#",
