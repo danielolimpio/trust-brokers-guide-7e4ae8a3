@@ -97,6 +97,18 @@ const Blog = () => {
         description="Latest forex trading news, broker reviews, market analysis, and expert insights to sharpen your trading strategy."
         keywords={["forex blog", "trading news", "broker reviews", "market analysis", "forex education", "trading strategies"]}
         canonical="https://brokertrusted.com/blog"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Blog",
+          name: "BrokerTrusted Blog",
+          description: "Forex news, broker reviews, market analysis and trading education.",
+          url: "https://brokertrusted.com/blog",
+          publisher: {
+            "@type": "Organization",
+            name: "BrokerTrusted",
+            logo: { "@type": "ImageObject", url: "https://brokertrusted.com/og-image.jpg" },
+          },
+        }}
       />
       
       <Header />

@@ -35,8 +35,27 @@ export default function About() {
         title="About BrokersTrusted – Our Team & Mission"
         description="Meet the BrokersTrusted team. Learn how our independent analysts review and rank forex brokers using transparent, data-driven methodology."
         canonical="https://brokertrusted.com/about"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          name: "About BrokerTrusted",
+          url: "https://brokertrusted.com/about",
+          mainEntity: {
+            "@type": "Organization",
+            name: "BrokerTrusted",
+            url: "https://brokertrusted.com",
+            logo: "https://brokertrusted.com/og-image.jpg",
+            description: "Independent forex broker reviews, rankings and comparisons.",
+            sameAs: [
+              "https://twitter.com/brokerstrusted",
+              "https://www.linkedin.com/company/brokertrusted",
+              "https://www.facebook.com/brokertrusted",
+            ],
+          },
+        }}
       />
       <Header />
+      
       
       
       <main>
