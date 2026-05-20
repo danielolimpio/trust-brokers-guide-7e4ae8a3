@@ -106,8 +106,8 @@ export default function BrokerReviews() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Professional Broker Reviews - BrokerTrusted"
-        description="Independent, in-depth reviews of forex brokers. Real account testing, expert analysis, and comprehensive evaluation of regulation, trading conditions, and platforms."
+        title="Professional Forex Broker Reviews"
+        description="Independent in-depth forex broker reviews. Real account testing and expert analysis of regulation, trading conditions and platforms."
         keywords={["broker reviews", "forex broker analysis", "broker comparison", "trading platform reviews"]}
         canonical="https://brokertrusted.com/broker-reviews"
       />

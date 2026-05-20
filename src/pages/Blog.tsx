@@ -93,9 +93,10 @@ const Blog = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO 
-        title="Expert Forex Trading Blog - Latest News & Analysis"
-        description="Stay updated with the latest forex trading news, broker reviews, market analysis, and expert insights. Your trusted source for forex education and strategies."
+        title="Forex Trading Blog – News & Analysis"
+        description="Latest forex trading news, broker reviews, market analysis, and expert insights to sharpen your trading strategy."
         keywords={["forex blog", "trading news", "broker reviews", "market analysis", "forex education", "trading strategies"]}
+        canonical="https://brokertrusted.com/blog"
       />
       
       <Header />
