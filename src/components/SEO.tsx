@@ -17,7 +17,7 @@ export const SEO = ({
   description,
   keywords = [],
   canonical,
-  ogImage = "/og-image.jpg",
+  ogImage = "https://brokertrusted.com/og-image.jpg",
   ogType = "website",
   noindex = false,
   structuredData
