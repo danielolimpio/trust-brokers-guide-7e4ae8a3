@@ -1,0 +1,36 @@
+# BrokerTrusted
+
+> Independent reviews, rankings and comparisons of regulated forex brokers. We help traders identify the safest, most trusted brokers with transparent methodology covering regulation, spreads, execution and platforms.
+
+## Core Pages
+
+- [Home](/): Top trusted forex brokers of 2025 with rankings and quick comparisons.
+- [About](/about): Our mission, editorial team and review methodology.
+- [Contact](/contact): Get in touch with the BrokerTrusted team.
+- [Blog](/blog): Forex news, market analysis and trading education.
+
+## Brokers
+
+- [All Brokers](/brokers): Full list of the top 20 reviewed forex brokers.
+- [Broker Reviews](/broker-reviews): In-depth professional reviews with pros and cons.
+- [News Brokers](/news): Newly launched brokers founded after 2020.
+
+## Categories & Rankings
+
+- [Best Forex Brokers](/best-forex-brokers): Overall top-rated forex brokers.
+- [Top Regulated Brokers](/top-regulated-brokers): Brokers with FCA, CySEC, ASIC licenses.
+- [Best Spreads](/best-spreads): Lowest spread brokers for cost-sensitive traders.
+- [Highest Leverage](/highest-leverage): Brokers offering the highest leverage.
+- [Best Bonuses](/best-bonuses): Brokers with the best promotional bonuses.
+- [New Brokers](/new-brokers): Recently launched brokers worth watching.
+- [Best for Beginners](/best-for-beginners): Beginner-friendly brokers with demo accounts and low deposits.
+- [Best for Professionals](/best-for-professionals): Institutional-grade brokers for advanced traders.
+- [Best Mobile Apps](/best-mobile-apps): Brokers with top-rated mobile trading apps.
+- [ECN Brokers](/ecn-brokers): Brokers using ECN execution model.
+- [STP Brokers](/stp-brokers): Brokers using Straight Through Processing.
+- [Market Makers](/market-makers): Market maker brokers explained and compared.
+
+## Education
+
+- [Trading Guides](/trading-guides): Structured learning paths for beginner and advanced traders.
+- [Market Analysis](/market-analysis): Technical indicators, economic calendar and market sentiment.
