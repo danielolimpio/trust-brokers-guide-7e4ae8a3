@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { TeamSection } from "@/components/TeamSection";
+import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Target, Users, Award } from "lucide-react";
 
@@ -30,7 +31,13 @@ const values = [
 export default function About() {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="About BrokersTrusted – Our Team & Mission"
+        description="Meet the BrokersTrusted team. Learn how our independent analysts review and rank forex brokers using transparent, data-driven methodology."
+        canonical="https://brokertrusted.com/about"
+      />
       <Header />
+      
       
       <main>
         {/* Hero Section */}

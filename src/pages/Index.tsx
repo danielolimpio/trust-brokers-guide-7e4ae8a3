@@ -39,18 +39,18 @@ const Index = () => {
   // SEO configuration by language
   const seoConfig = {
     en: {
-      title: "BrokerTrusted – Verified & Regulated Forex Brokers You Can Trust",
-      description: "Find the safest, most trusted forex brokers in 2025. Independent reviews of regulated brokers with FCA, CySEC & ASIC licenses. Compare spreads, fees & safety.",
+      title: "Top Trusted Forex Brokers 2025",
+      description: "Find the safest, most trusted forex brokers in 2025. Independent reviews of FCA, CySEC & ASIC regulated brokers. Compare spreads, fees and safety.",
       keywords: ["trusted forex brokers", "regulated forex brokers", "safe forex brokers", "best forex brokers 2025", "FCA regulated brokers", "forex broker reviews"]
     },
     pt: {
-      title: "BrokerTrusted – Corretoras Forex Verificadas e Regulamentadas",
-      description: "Encontre as corretoras forex mais seguras e confiáveis em 2025. Análises independentes de corretoras regulamentadas com licenças FCA, CySEC e ASIC.",
+      title: "Corretoras Forex Confiáveis 2025",
+      description: "Encontre as corretoras forex mais seguras de 2025. Análises independentes de corretoras regulamentadas com licenças FCA, CySEC e ASIC.",
       keywords: ["corretoras forex confiáveis", "corretoras regulamentadas", "melhores corretoras forex 2025", "corretoras seguras", "análises de corretoras"]
     },
     es: {
-      title: "BrokerTrusted – Brókers Forex Verificados y Regulados",
-      description: "Encuentra los brókers forex más seguros y confiables en 2025. Reseñas independientes de brókers regulados con licencias FCA, CySEC y ASIC.",
+      title: "Brókers Forex Confiables 2025",
+      description: "Encuentra los brókers forex más seguros de 2025. Reseñas independientes de brókers regulados con licencias FCA, CySEC y ASIC.",
       keywords: ["brókers forex confiables", "brókers regulados", "mejores brókers forex 2025", "brókers seguros", "reseñas de brókers"]
     }
   };
