@@ -75,7 +75,13 @@ export default function BrokerReview() {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title={`${broker.name} Review ${new Date().getFullYear()} – Spreads, Fees & Safety`}
+        description={`In-depth ${broker.name} review: regulation, spreads, platforms and account types. Independent analysis to help you decide if ${broker.name} is right for you.`}
+        canonical={`https://brokertrusted.com/broker/${broker.id}`}
+      />
       <Header />
+      
       
       <main className="py-8">
         <div className="container mx-auto px-4">
