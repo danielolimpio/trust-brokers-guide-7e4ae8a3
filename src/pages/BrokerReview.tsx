@@ -73,12 +73,32 @@ export default function BrokerReview() {
 
   const comparisonBrokers = brokers.filter(b => b.id !== broker.id).slice(0, 3);
 
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    itemReviewed: {
+      "@type": "FinancialService",
+      name: broker.name,
+      description: broker.keyStrength,
+      foundingDate: String(broker.foundedYear),
+      areaServed: "Worldwide",
+    },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: broker.rating,
+      bestRating: broker.maxRating,
+    },
+    author: { "@type": "Organization", name: "BrokerTrusted Editorial Team" },
+    publisher: { "@type": "Organization", name: "BrokerTrusted" },
+  };
+
   return (
     <div className="min-h-screen">
       <SEO
         title={`${broker.name} Review ${new Date().getFullYear()} – Spreads, Fees & Safety`}
         description={`In-depth ${broker.name} review: regulation, spreads, platforms and account types. Independent analysis to help you decide if ${broker.name} is right for you.`}
         canonical={`https://brokertrusted.com/broker/${broker.id}`}
+        structuredData={reviewSchema}
       />
       <Header />
       
