@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { LanguageSelector } from "@/components/LanguageSelector";
-import logo from "@/assets/logo.png";
+import logoSymbol from "@/assets/logo-symbol.png";
 
 export function Header() {
   const { t } = useTranslation();
@@ -26,15 +26,18 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+          <Link to="/" className="-m-1.5 p-1.5 flex items-center gap-3">
             <span className="sr-only">BrokerTrusted</span>
             <img
-              src={logo}
-              alt="BrokerTrusted - Premium Forex Broker Reviews"
-              width={160}
-              height={40}
-              className="h-10 w-auto object-contain"
+              src={logoSymbol}
+              alt="BrokerTrusted logo"
+              width={56}
+              height={56}
+              className="h-12 w-12 object-contain"
             />
+            <span className="text-2xl font-bold tracking-tight text-primary leading-none">
+              Broker<span className="text-success">Trusted</span>
+            </span>
           </Link>
         </div>
 
