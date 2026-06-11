@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import { AnalyticsSetup } from "./components/AnalyticsSetup";
+import { ScrollToTop } from "./components/ScrollToTop";
 import { AdminProvider } from "./contexts/AdminContext";
 import Index from "./pages/Index";
 import About from "./pages/About";
@@ -44,6 +45,7 @@ const App = () => (
           <Sonner />
           <BrowserRouter>
             <AnalyticsSetup />
+            <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
