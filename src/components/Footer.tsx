@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { TrendingUp, Facebook, Twitter, Linkedin, Youtube, Mail, MapPin, Phone } from "lucide-react";
+import { Facebook, Twitter, Linkedin, Youtube, Mail, MapPin, Phone } from "lucide-react";
+import logoSymbol from "@/assets/logo-symbol.png";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -57,12 +58,17 @@ export function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
             {/* Brand Column */}
             <div className="lg:col-span-2">
-              <div className="flex items-center space-x-2 mb-6">
-                <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-success">
-                  <TrendingUp className="h-5 w-5 text-success-foreground" />
-                </div>
-                <span className="text-xl font-bold">
-                  Brokers<span className="text-success">Trusted</span>
+              <div className="flex items-center gap-3 mb-6">
+                <img
+                  src={logoSymbol}
+                  alt="BrokerTrusted logo"
+                  width={48}
+                  height={48}
+                  className="h-12 w-12 object-contain bg-white rounded-lg p-1"
+                  loading="lazy"
+                />
+                <span className="text-xl font-bold leading-none">
+                  Broker<span className="text-success">Trusted</span>
                 </span>
               </div>
               
