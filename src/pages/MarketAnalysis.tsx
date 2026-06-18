@@ -6,6 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { TrendingUp, TrendingDown, Activity, BarChart3, LineChart, PieChart, Clock, ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import bgMarketAnalysis from "@/assets/bg-market-analysis.jpg";
+import bgRecommendation from "@/assets/bg-recommendation.jpg";
 
 const majorPairs = [
   { pair: "EUR/USD", price: "1.0895", change: "+0.45%", trend: "up", signal: "Bullish" },
@@ -139,8 +141,13 @@ export default function MarketAnalysis() {
       <main>
         {/* Hero Section */}
         <section className="relative py-20 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-success/50" />
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PC9zdmc+')] opacity-20" />
+          <img
+            src={bgMarketAnalysis}
+            alt="Forex market analysis trading workstation"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/70" />
+          <div className="absolute inset-0 bg-black/55" />
           
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -320,9 +327,19 @@ export default function MarketAnalysis() {
                             </div>
                           </div>
                           <div>
-                            <div className="p-4 bg-gradient-to-br from-success/10 to-primary/10 rounded-lg border border-success/20">
-                              <div className="text-sm text-muted-foreground mb-2">Trading Recommendation</div>
-                              <div className="font-semibold text-foreground">{analysis.recommendation}</div>
+                            <div
+                              className="relative overflow-hidden p-5 rounded-lg border border-success/30 shadow-elegant"
+                              style={{
+                                backgroundImage: `url(${bgRecommendation})`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                              }}
+                            >
+                              <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/60" />
+                              <div className="relative z-10">
+                                <div className="text-sm text-success/90 font-medium mb-2 uppercase tracking-wide">Trading Recommendation</div>
+                                <div className="font-bold text-lg text-foreground">{analysis.recommendation}</div>
+                              </div>
                             </div>
                           </div>
                         </div>
