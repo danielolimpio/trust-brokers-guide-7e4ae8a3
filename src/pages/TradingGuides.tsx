@@ -6,6 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { BookOpen, TrendingUp, Target, Shield, Zap, Users, Award, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import bgTradingGuides from "@/assets/bg-trading-guides.jpg";
+import guideForex2025 from "@/assets/guide-forex-2025.jpg";
+import guideRiskManagement from "@/assets/guide-risk-management.jpg";
+import guideTechnicalAnalysis from "@/assets/guide-technical-analysis.jpg";
+
 
 const guideLevels = [
   {
@@ -53,7 +58,7 @@ const featuredGuides = [
     category: "Comprehensive",
     readTime: "45 min",
     level: "All Levels",
-    image: "gradient-hero"
+    image: guideForex2025,
   },
   {
     title: "Risk Management: Protect Your Capital",
@@ -61,7 +66,7 @@ const featuredGuides = [
     category: "Essential",
     readTime: "30 min",
     level: "Beginner-Intermediate",
-    image: "gradient-success"
+    image: guideRiskManagement,
   },
   {
     title: "Technical Analysis Masterclass",
@@ -69,7 +74,7 @@ const featuredGuides = [
     category: "Technical",
     readTime: "60 min",
     level: "Intermediate-Advanced",
-    image: "gradient-primary"
+    image: guideTechnicalAnalysis,
   },
 ];
 
@@ -142,8 +147,14 @@ export default function TradingGuides() {
       <main>
         {/* Hero Section */}
         <section className="relative py-24 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-success via-primary/80 to-primary" />
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PC9zdmc+')] opacity-20" />
+          <img
+            src={bgTradingGuides}
+            alt="Forex trading charts background"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/80 to-primary/70" />
+          <div className="absolute inset-0 bg-black/50" />
+          
           
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center animate-fade-in">
@@ -243,8 +254,14 @@ export default function TradingGuides() {
                   className="group hover:shadow-elegant transition-all duration-300 overflow-hidden animate-fade-in"
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  <div className={`h-40 bg-gradient-to-br ${guide.image === 'gradient-hero' ? 'from-success to-primary' : guide.image === 'gradient-success' ? 'from-success to-success/70' : 'from-primary to-primary/70'} relative overflow-hidden group-hover:scale-105 transition-transform duration-300`}>
-                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjEiIHN0cm9rZS13aWR0aD0iMiIvPjwvZz48L3N2Zz4=')] opacity-50" />
+                  <div className="h-48 relative overflow-hidden">
+                    <img
+                      src={guide.image}
+                      alt={guide.title}
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                   </div>
                   <CardHeader>
                     <div className="flex items-center gap-2 mb-3">
