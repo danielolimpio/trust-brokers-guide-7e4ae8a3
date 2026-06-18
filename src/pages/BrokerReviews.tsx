@@ -8,6 +8,7 @@ import { Shield, Star, TrendingUp, CheckCircle, Award, Users, Clock, Search } fr
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import bgBrokerReviews from "@/assets/bg-broker-reviews.jpg";
 
 const reviewCategories = [
   {
@@ -117,12 +118,18 @@ export default function BrokerReviews() {
       <main>
         {/* Hero Section */}
         <section className="relative py-20 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/80 to-success/40" />
-          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utb3BhY2l0eT0iLjA1IiBzdHJva2Utd2lkdGg9IjIiLz48L2c+PC9zdmc+')] opacity-20" />
-          
+          <img
+            src={bgBrokerReviews}
+            alt="Professional forex broker review workstation"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/70" />
+          <div className="absolute inset-0 bg-black/55" />
+
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center animate-fade-in">
-              <Badge className="mb-6 bg-success/20 text-success border-success/30 text-lg px-6 py-2">
+              <Badge className="mb-6 bg-emerald-400/20 text-emerald-300 border border-emerald-400/40 text-lg px-6 py-2">
+                <Award className="h-4 w-4 mr-2 inline" />
                 500+ Professional Reviews
               </Badge>
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">

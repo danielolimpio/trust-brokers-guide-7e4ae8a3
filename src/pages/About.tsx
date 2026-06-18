@@ -4,6 +4,7 @@ import { TeamSection } from "@/components/TeamSection";
 import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Target, Users, Award } from "lucide-react";
+import bgAbout from "@/assets/bg-about.jpg";
 
 const values = [
   {
@@ -60,8 +61,15 @@ export default function About() {
       
       <main>
         {/* Hero Section */}
-        <section className="py-16 bg-gradient-primary text-white">
-          <div className="container mx-auto px-4 text-center">
+        <section className="relative py-24 overflow-hidden text-white">
+          <img
+            src={bgAbout}
+            alt="Forex trading workstation background"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/70" />
+          <div className="absolute inset-0 bg-black/55" />
+          <div className="container mx-auto px-4 text-center relative z-10">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               About Brokers Trusted
             </h1>

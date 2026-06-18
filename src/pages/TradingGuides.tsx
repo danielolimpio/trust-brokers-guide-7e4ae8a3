@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { BookOpen, TrendingUp, Target, Shield, Zap, Users, Award, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import bgTradingGuides from "@/assets/bg-trading-guides.jpg";
-import guideForex2025 from "@/assets/guide-forex-2025.jpg";
+import guideForex2026 from "@/assets/guide-forex-2026.jpg";
 import guideRiskManagement from "@/assets/guide-risk-management.jpg";
 import guideTechnicalAnalysis from "@/assets/guide-technical-analysis.jpg";
 
@@ -53,12 +53,12 @@ const guideLevels = [
 
 const featuredGuides = [
   {
-    title: "Complete Guide to Forex Trading in 2025",
-    description: "Everything you need to know to start trading forex successfully. From basics to advanced concepts.",
+    title: "Complete Guide to Forex Trading in 2026",
+    description: "The definitive 2026 roadmap to forex trading: master market structure, modern platforms, AI-assisted analysis, regulation updates, and proven strategies to trade confidently this year.",
     category: "Comprehensive",
     readTime: "45 min",
     level: "All Levels",
-    image: guideForex2025,
+    image: guideForex2026,
   },
   {
     title: "Risk Management: Protect Your Capital",
@@ -158,7 +158,8 @@ export default function TradingGuides() {
           
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-4xl mx-auto text-center animate-fade-in">
-              <Badge className="mb-6 bg-white/20 text-white border-white/30 text-lg px-6 py-2">
+              <Badge className="mb-6 bg-emerald-400/20 text-emerald-300 border border-emerald-400/40 text-lg px-6 py-2">
+                <BookOpen className="h-4 w-4 mr-2 inline" />
                 120+ Expert Guides
               </Badge>
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -171,19 +172,19 @@ export default function TradingGuides() {
 
               <div className="flex flex-wrap justify-center gap-8 text-white/90">
                 <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">120+</div>
+                  <div className="text-4xl font-bold mb-2 text-emerald-400">120+</div>
                   <div className="text-sm">Expert Guides</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">50k+</div>
+                  <div className="text-4xl font-bold mb-2 text-emerald-400">50k+</div>
                   <div className="text-sm">Students</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">15+</div>
+                  <div className="text-4xl font-bold mb-2 text-emerald-400">15+</div>
                   <div className="text-sm">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold mb-2">4.9</div>
+                  <div className="text-4xl font-bold mb-2 text-emerald-400">4.9</div>
                   <div className="text-sm">Average Rating</div>
                 </div>
               </div>
