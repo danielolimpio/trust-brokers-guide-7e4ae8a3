@@ -4,7 +4,7 @@
 
 ## Core Pages
 
-- [Home](/): Top trusted forex brokers of 2025 with rankings and quick comparisons.
+- [Home](/): Top trusted forex brokers of 2026 with rankings and quick comparisons.
 - [About](/about): Our mission, editorial team and review methodology.
 - [Contact](/contact): Get in touch with the BrokerTrusted team.
 - [Blog](/blog): Forex news, market analysis and trading education.
@@ -34,3 +34,5 @@
 
 - [Trading Guides](/trading-guides): Structured learning paths for beginner and advanced traders.
 - [Market Analysis](/market-analysis): Technical indicators, economic calendar and market sentiment.
+- [Methodology](/methodology): Transparent criteria for regulation, safety, spreads, execution and platform testing.
+- [Risk Warning](/risk-warning): CFD and forex risk disclosures for leveraged trading.

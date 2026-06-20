@@ -28,6 +28,15 @@ const PRERENDER_ROUTES = [
   "/broker-reviews",
   "/trading-guides",
   "/market-analysis",
+  "/team",
+  "/methodology",
+  "/careers",
+  "/press",
+  "/privacy",
+  "/terms",
+  "/cookies",
+  "/disclaimer",
+  "/risk-warning",
 ];
 
 // https://vitejs.dev/config/
