@@ -32,6 +32,7 @@ import MarketMakers from "./pages/MarketMakers";
 import BrokerReviews from "./pages/BrokerReviews";
 import TradingGuides from "./pages/TradingGuides";
 import MarketAnalysis from "./pages/MarketAnalysis";
+import StaticInfoPage from "./pages/StaticInfoPage";
 
 
 const queryClient = new QueryClient();
@@ -73,6 +74,19 @@ const App = () => (
             <Route path="/broker-reviews" element={<BrokerReviews />} />
             <Route path="/trading-guides" element={<TradingGuides />} />
             <Route path="/market-analysis" element={<MarketAnalysis />} />
+            <Route path="/reviews" element={<BrokerReviews />} />
+            <Route path="/guides" element={<TradingGuides />} />
+            <Route path="/analysis" element={<MarketAnalysis />} />
+            <Route path="/education" element={<TradingGuides />} />
+            <Route path="/team" element={<StaticInfoPage page="team" />} />
+            <Route path="/methodology" element={<StaticInfoPage page="methodology" />} />
+            <Route path="/careers" element={<StaticInfoPage page="careers" />} />
+            <Route path="/press" element={<StaticInfoPage page="press" />} />
+            <Route path="/privacy" element={<StaticInfoPage page="privacy" />} />
+            <Route path="/terms" element={<StaticInfoPage page="terms" />} />
+            <Route path="/cookies" element={<StaticInfoPage page="cookies" />} />
+            <Route path="/disclaimer" element={<StaticInfoPage page="disclaimer" />} />
+            <Route path="/risk-warning" element={<StaticInfoPage page="risk-warning" />} />
             
             {/* Admin Routes */}
             <Route path="/admin/login" element={<AdminLogin />} />
