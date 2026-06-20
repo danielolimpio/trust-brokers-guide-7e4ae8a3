@@ -13,10 +13,10 @@ export default function NewBrokers() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="New Forex Brokers 2025 – Recently Established & Regulated"
+        title="New Forex Brokers 2026 – Recently Established & Regulated"
         description="Explore new forex brokers established since 2020. Discover innovative, regulated brokers with modern platforms and competitive trading conditions."
         canonical="https://brokertrusted.com/new-brokers"
-        keywords={["new forex brokers","recent brokers 2025","new trading platforms","emerging brokers"]}
+        keywords={["new forex brokers","recent brokers 2026","new trading platforms","emerging brokers"]}
       />
       <Header />
       <main>

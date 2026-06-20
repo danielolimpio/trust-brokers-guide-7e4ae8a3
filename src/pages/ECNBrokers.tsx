@@ -14,7 +14,7 @@ export default function ECNBrokers() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best ECN Forex Brokers 2025 – Direct Market Access & Raw Spreads"
+        title="Best ECN Forex Brokers 2026 – Direct Market Access & Raw Spreads"
         description="Top ECN forex brokers with direct market access, raw spreads, and no dealing desk. Trade with true interbank pricing and transparent execution."
         canonical="https://brokertrusted.com/ecn-brokers"
         keywords={["ECN brokers","ECN forex","direct market access","raw spreads","no dealing desk","interbank pricing"]}

@@ -9,10 +9,10 @@ export default function Brokers() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="All Trusted & Regulated Forex Brokers 2025"
+        title="All Trusted & Regulated Forex Brokers 2026"
         description="Complete list of trusted, regulated forex brokers with expert reviews. Compare spreads, fees, platforms and safety to choose the best broker."
         canonical="https://brokertrusted.com/brokers"
-        keywords={["trusted forex brokers","regulated brokers","best forex brokers 2025","broker list"]}
+        keywords={["trusted forex brokers","regulated brokers","best forex brokers 2026","broker list"]}
       />
       <Header />
       <main>

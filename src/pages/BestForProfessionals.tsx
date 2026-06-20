@@ -14,7 +14,7 @@ export default function BestForProfessionals() {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Best Forex Brokers for Professional Traders 2025"
+        title="Best Forex Brokers for Professional Traders 2026"
         description="Professional-grade forex brokers with advanced trading tools, high leverage, institutional execution, and premium features for experienced traders."
         canonical="https://brokertrusted.com/best-for-professionals"
         keywords={["professional forex brokers","advanced trading","institutional brokers","high leverage","professional trading platforms"]}

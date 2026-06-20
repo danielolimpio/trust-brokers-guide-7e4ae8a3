@@ -13,7 +13,7 @@ export default function STPBrokers() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best STP Forex Brokers 2025 – Straight Through Processing"
+        title="Best STP Forex Brokers 2026 – Straight Through Processing"
         description="Top STP forex brokers with straight-through processing and no dealing desk. Get direct access to liquidity providers with transparent execution."
         canonical="https://brokertrusted.com/stp-brokers"
         keywords={["STP brokers","straight through processing","NDD brokers","no dealing desk","STP forex"]}
