@@ -13,7 +13,7 @@ export function HeroBanner() {
     en: {
       h1: "Trusted Broker – Verified & Regulated Forex Brokers You Can Trust",
       subtitle: "Independent Reviews • Regulatory Verification • Safety First",
-      description: "Find the safest, most trusted forex brokers in 2025. Our expert team analyzes regulation, spreads, fees, and safety to help you choose the right trading partner.",
+      description: "Find the safest, most trusted forex brokers in 2026. Our expert team analyzes regulation, spreads, fees, and safety to help you choose the right trading partner.",
       cta: "Compare Verified Brokers",
       trustSignals: [
         { icon: Shield, text: "Only FCA/CySEC/ASIC Regulated", highlight: true },
@@ -24,7 +24,7 @@ export function HeroBanner() {
     pt: {
       h1: "BrokerTrusted – Corretoras Forex Verificadas e Regulamentadas",
       subtitle: "Análises Independentes • Verificação Regulatória • Segurança Primeiro",
-      description: "Encontre as corretoras forex mais seguras e confiáveis em 2025. Nossa equipe de especialistas analisa regulamentação, spreads, taxas e segurança.",
+      description: "Encontre as corretoras forex mais seguras e confiáveis em 2026. Nossa equipe de especialistas analisa regulamentação, spreads, taxas e segurança.",
       cta: "Comparar Corretoras Verificadas",
       trustSignals: [
         { icon: Shield, text: "Apenas Regulamentadas FCA/CySEC/ASIC", highlight: true },
@@ -35,7 +35,7 @@ export function HeroBanner() {
     es: {
       h1: "BrokerTrusted – Brókers Forex Verificados y Regulados",
       subtitle: "Reseñas Independientes • Verificación Regulatoria • Seguridad Primero",
-      description: "Encuentra los brókers forex más seguros y confiables en 2025. Nuestro equipo de expertos analiza regulación, spreads, tarifas y seguridad.",
+      description: "Encuentra los brókers forex más seguros y confiables en 2026. Nuestro equipo de expertos analiza regulación, spreads, tarifas y seguridad.",
       cta: "Comparar Brókers Verificados",
       trustSignals: [
         { icon: Shield, text: "Solo Regulados FCA/CySEC/ASIC", highlight: true },

@@ -39,19 +39,19 @@ const Index = () => {
   // SEO configuration by language
   const seoConfig = {
     en: {
-      title: "Top Trusted Forex Brokers 2025",
-      description: "Find the safest, most trusted forex brokers in 2025. Independent reviews of FCA, CySEC & ASIC regulated brokers. Compare spreads, fees and safety.",
-      keywords: ["trusted forex brokers", "regulated forex brokers", "safe forex brokers", "best forex brokers 2025", "FCA regulated brokers", "forex broker reviews"]
+      title: "Top Trusted Forex Brokers 2026",
+      description: "Find the safest, most trusted forex brokers in 2026. Independent reviews of FCA, CySEC & ASIC regulated brokers. Compare spreads, fees and safety.",
+      keywords: ["trusted forex brokers", "regulated forex brokers", "safe forex brokers", "best forex brokers 2026", "FCA regulated brokers", "forex broker reviews"]
     },
     pt: {
       title: "Corretoras Forex Confiáveis 2025",
-      description: "Encontre as corretoras forex mais seguras de 2025. Análises independentes de corretoras regulamentadas com licenças FCA, CySEC e ASIC.",
-      keywords: ["corretoras forex confiáveis", "corretoras regulamentadas", "melhores corretoras forex 2025", "corretoras seguras", "análises de corretoras"]
+      description: "Encontre as corretoras forex mais seguras de 2026. Análises independentes de corretoras regulamentadas com licenças FCA, CySEC e ASIC.",
+      keywords: ["corretoras forex confiáveis", "corretoras regulamentadas", "melhores corretoras forex 2026", "corretoras seguras", "análises de corretoras"]
     },
     es: {
       title: "Brókers Forex Confiables 2025",
-      description: "Encuentra los brókers forex más seguros de 2025. Reseñas independientes de brókers regulados con licencias FCA, CySEC y ASIC.",
-      keywords: ["brókers forex confiables", "brókers regulados", "mejores brókers forex 2025", "brókers seguros", "reseñas de brókers"]
+      description: "Encuentra los brókers forex más seguros de 2026. Reseñas independientes de brókers regulados con licencias FCA, CySEC y ASIC.",
+      keywords: ["brókers forex confiables", "brókers regulados", "mejores brókers forex 2026", "brókers seguros", "reseñas de brókers"]
     }
   };
 

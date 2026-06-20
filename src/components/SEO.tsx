@@ -25,7 +25,7 @@ export const SEO = ({
   const { i18n } = useTranslation();
   
   const siteTitle = "BrokerTrusted";
-  const defaultDescription = "BrokerTrusted – Verified & Regulated Forex Brokers You Can Trust. Independent reviews of the safest, most trusted forex brokers in 2025.";
+  const defaultDescription = "BrokerTrusted – Verified & Regulated Forex Brokers You Can Trust. Independent reviews of the safest, most trusted forex brokers in 2026.";
   
   const fullTitle = title ? `${title} | ${siteTitle}` : `${siteTitle} – Verified & Regulated Forex Brokers You Can Trust`;
   const metaDescription = description || defaultDescription;
@@ -59,7 +59,7 @@ export const SEO = ({
       {/* Additional SEO Tags */}
       <meta name="author" content="BrokerTrusted Editorial Team" />
       <meta name="publisher" content="BrokerTrusted" />
-      <meta name="copyright" content="© 2025 BrokerTrusted. All rights reserved." />
+      <meta name="copyright" content="© 2026 BrokerTrusted. All rights reserved." />
       
       {/* Mobile Optimization */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

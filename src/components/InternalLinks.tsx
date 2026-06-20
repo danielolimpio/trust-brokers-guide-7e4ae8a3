@@ -13,7 +13,7 @@ const internalLinks = {
       category: "Safety Guide"
     },
     {
-      title: "Best Regulated Forex Brokers 2025",
+      title: "Best Regulated Forex Brokers 2026",
       description: "Top-rated brokers with FCA, CySEC, and ASIC regulation. Compare features, spreads, and safety ratings.",
       href: "/regulated-brokers",
       icon: TrendingUp,
@@ -43,7 +43,7 @@ const internalLinks = {
       category: "Guia de Segurança"
     },
     {
-      title: "Melhores Corretoras Forex Regulamentadas 2025",
+      title: "Melhores Corretoras Forex Regulamentadas 2026",
       description: "Corretoras mais bem avaliadas com regulamentação FCA, CySEC e ASIC. Compare recursos e classificações.",
       href: "/corretoras-regulamentadas",
       icon: TrendingUp,
@@ -73,7 +73,7 @@ const internalLinks = {
       category: "Guía de Seguridad"
     },
     {
-      title: "Mejores Brókers Forex Regulados 2025",
+      title: "Mejores Brókers Forex Regulados 2026",
       description: "Brókers mejor calificados con regulación FCA, CySEC y ASIC. Compara características y calificaciones.",
       href: "/brokers-regulados",
       icon: TrendingUp,

@@ -201,7 +201,7 @@ export function Footer() {
             </div>
             
             <div className="text-sm text-primary-foreground/80">
-              © 2025 Copyright | BrokerTrusted | All rights reserved | Developed by 
+              © 2026 Copyright | BrokerTrusted | All rights reserved | Developed by 
               <a href="https://danielolimpio.com/" target="_blank" rel="noopener noreferrer" className="underline ml-1">DanielOlimpio</a>
             </div>
           </div>
