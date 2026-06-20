@@ -8,6 +8,7 @@ import { TeamSection } from "@/components/TeamSection";
 import { NewsletterSection } from "@/components/NewsletterSection";
 import { FAQSection } from "@/components/FAQSection";
 import { InternalLinks } from "@/components/InternalLinks";
+import { SEOKeywordSection } from "@/components/SEOKeywordSection";
 import { Footer } from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { useTranslation } from "react-i18next";
@@ -71,6 +72,7 @@ const Index = () => {
         <HeroBanner />
         <BrokerRanking />
         <InternalLinks />
+        <SEOKeywordSection />
         <TopCategoriesSection />
         <BlogSection />
         <ForexRatesWidget />

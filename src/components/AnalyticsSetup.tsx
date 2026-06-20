@@ -9,8 +9,7 @@ declare global {
   }
 }
 
-const GA4_MEASUREMENT_ID = 'YOUR_GA4_MEASUREMENT_ID'; // Replace with your actual GA4 ID
-const GSC_VERIFICATION_CODE = 'YOUR_GSC_VERIFICATION_CODE'; // Replace with your GSC verification code
+const GA4_MEASUREMENT_ID = 'G-B2F2VJT83K';
 
 export function AnalyticsSetup() {
   const location = useLocation();
@@ -18,21 +17,13 @@ export function AnalyticsSetup() {
   useEffect(() => {
     // Initialize Google Analytics 4
     if (typeof window !== 'undefined') {
-      // Create script tag for gtag
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`;
-      document.head.appendChild(script);
-
-      // Initialize gtag
       window.dataLayer = window.dataLayer || [];
       function gtag(command: string, targetId: string, config?: any) {
         window.dataLayer.push(arguments);
       }
-      window.gtag = gtag;
+      window.gtag = window.gtag || gtag;
 
-      gtag('js', new Date().toISOString());
-      gtag('config', GA4_MEASUREMENT_ID, {
+      window.gtag('config', GA4_MEASUREMENT_ID, {
         send_page_view: false, // We'll handle page views manually
         cookie_flags: 'secure;samesite=none',
       });
