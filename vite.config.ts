@@ -53,12 +53,7 @@ export default defineConfig(({ mode }) => ({
           },
         },
         postProcess(renderedRoute: { route: string; html: string }) {
-          // Ensure each route's HTML keeps a correct base URL.
-          renderedRoute.html = renderedRoute.html.replace(
-            /<base[^>]*>/i,
-            ""
-          );
-          return renderedRoute;
+          renderedRoute.html = renderedRoute.html.replace(/<base[^>]*>/i, "");
         },
       }),
   ].filter(Boolean),
