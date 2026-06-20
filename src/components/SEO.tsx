@@ -69,26 +69,12 @@ export const SEO = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="format-detection" content="telephone=no" />
       
-      {/* Analytics and Verification Placeholders */}
-      <meta name="google-site-verification" content="YOUR_GSC_VERIFICATION_CODE_HERE" />
-      
       {/* Structured Data */}
       {structuredData && (
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>
       )}
-      
-      {/* Google Analytics 4 */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA4_MEASUREMENT_ID"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'YOUR_GA4_MEASUREMENT_ID');
-        `}
-      </script>
     </Helmet>
   );
 };
