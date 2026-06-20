@@ -2,6 +2,33 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 import { componentTagger } from "lovable-tagger";
+import prerender from "@prerenderer/rollup-plugin";
+
+// Routes to pre-render as static HTML (improves SEO / indexability).
+// Dynamic routes (e.g. /broker/:brokerId) and admin routes are intentionally excluded.
+const PRERENDER_ROUTES = [
+  "/",
+  "/about",
+  "/brokers",
+  "/news",
+  "/blog",
+  "/contact",
+  "/best-forex-brokers",
+  "/top-regulated-brokers",
+  "/best-spreads",
+  "/highest-leverage",
+  "/best-bonuses",
+  "/new-brokers",
+  "/best-for-beginners",
+  "/best-for-professionals",
+  "/best-mobile-apps",
+  "/ecn-brokers",
+  "/stp-brokers",
+  "/market-makers",
+  "/broker-reviews",
+  "/trading-guides",
+  "/market-analysis",
+];
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -9,7 +36,32 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  plugins: [
+    react(),
+    mode === "development" && componentTagger(),
+    // Only pre-render in production builds to keep dev fast and stable.
+    mode === "production" &&
+      prerender({
+        routes: PRERENDER_ROUTES,
+        renderer: "@prerenderer/renderer-puppeteer",
+        rendererOptions: {
+          maxConcurrentRoutes: 4,
+          renderAfterTime: 2000,
+          headless: "new",
+          launchOptions: {
+            args: ["--no-sandbox", "--disable-setuid-sandbox"],
+          },
+        },
+        postProcess(renderedRoute: { route: string; html: string }) {
+          // Ensure each route's HTML keeps a correct base URL.
+          renderedRoute.html = renderedRoute.html.replace(
+            /<base[^>]*>/i,
+            ""
+          );
+          return renderedRoute;
+        },
+      }),
+  ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
