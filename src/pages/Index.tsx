@@ -44,12 +44,12 @@ const Index = () => {
       keywords: ["trusted forex brokers", "regulated forex brokers", "safe forex brokers", "best forex brokers 2026", "FCA regulated brokers", "forex broker reviews"]
     },
     pt: {
-      title: "Corretoras Forex Confiáveis 2025",
+      title: "Corretoras Forex Confiáveis 2026",
       description: "Encontre as corretoras forex mais seguras de 2026. Análises independentes de corretoras regulamentadas com licenças FCA, CySEC e ASIC.",
       keywords: ["corretoras forex confiáveis", "corretoras regulamentadas", "melhores corretoras forex 2026", "corretoras seguras", "análises de corretoras"]
     },
     es: {
-      title: "Brókers Forex Confiables 2025",
+      title: "Brókers Forex Confiables 2026",
       description: "Encuentra los brókers forex más seguros de 2026. Reseñas independientes de brókers regulados con licencias FCA, CySEC y ASIC.",
       keywords: ["brókers forex confiables", "brókers regulados", "mejores brókers forex 2026", "brókers seguros", "reseñas de brókers"]
     }

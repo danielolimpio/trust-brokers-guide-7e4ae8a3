@@ -20,7 +20,7 @@ const faqData = {
     },
     {
       id: "safest-broker-2026",
-      question: "What is the safest forex broker in 2025?",
+      question: "What is the safest forex broker in 2026?",
       answer: "The safest forex brokers in 2026 are those with tier-1 regulation, strong capital reserves, and comprehensive investor protection. Our top-rated brokers include IG Markets (FCA regulated), Saxo Bank (multiple tier-1 licenses), and Interactive Brokers (CFTC regulated). Safety depends on regulation, fund segregation, and insurance coverage."
     },
     {

@@ -23,7 +23,7 @@ const marketInsights = [
     title: "Federal Reserve Policy Outlook",
     category: "Central Banks",
     date: "2 hours ago",
-    summary: "Fed signals potential rate cuts in Q2 2025 as inflation shows sustained decline. Markets pricing in 75bps of cuts by year-end.",
+    summary: "Fed signals potential rate cuts in Q3 2026 as inflation shows sustained decline. Markets pricing in 75bps of cuts by year-end.",
     impact: "High",
     icon: TrendingUp
   },
