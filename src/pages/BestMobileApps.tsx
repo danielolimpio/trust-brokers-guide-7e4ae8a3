@@ -14,7 +14,7 @@ export default function BestMobileApps() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best Forex Mobile Trading Apps 2025 – iOS & Android"
+        title="Best Forex Mobile Trading Apps 2026 – iOS & Android"
         description="Top-rated forex mobile trading apps for iOS and Android. Trade on-the-go with powerful mobile platforms, real-time charts, and instant execution."
         canonical="https://brokertrusted.com/best-mobile-apps"
         keywords={["forex mobile app","mobile trading","iOS forex app","Android forex app","trading on mobile"]}

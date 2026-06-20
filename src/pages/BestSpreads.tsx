@@ -11,7 +11,7 @@ export default function BestSpreads() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best Spreads Forex Brokers – Lowest Trading Costs 2025"
+        title="Best Spreads Forex Brokers – Lowest Trading Costs 2026"
         description="Compare forex brokers with the lowest spreads. Find brokers offering tight spreads and minimal trading costs for maximum profitability."
         canonical="https://brokertrusted.com/best-spreads"
         keywords={["low spread brokers","tight spreads","best spreads forex","lowest trading costs"]}

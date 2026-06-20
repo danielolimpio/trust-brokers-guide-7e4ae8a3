@@ -15,7 +15,7 @@ export default function HighestLeverage() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Highest Leverage Forex Brokers – Up to 1:500+ in 2025"
+        title="Highest Leverage Forex Brokers – Up to 1:500+ in 2026"
         description="Find forex brokers offering the highest leverage ratios. Compare brokers with leverage up to 1:500 and beyond for experienced traders."
         canonical="https://brokertrusted.com/highest-leverage"
         keywords={["high leverage brokers","1:500 leverage","maximum leverage forex","leverage trading"]}

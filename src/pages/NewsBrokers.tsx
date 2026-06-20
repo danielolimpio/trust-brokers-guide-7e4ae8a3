@@ -16,7 +16,7 @@ export default function NewsBrokers() {
         title="New Forex Brokers (Since 2020) – Trusted & Regulated"
         description="Discover newly established forex brokers (since 2020). See which new brokers are regulated and trusted with verified safety checks."
         canonical="https://brokertrusted.com/news"
-        keywords={["new forex brokers","recent brokers","regulated brokers 2025","safe forex brokers"]}
+        keywords={["new forex brokers","recent brokers","regulated brokers 2026","safe forex brokers"]}
       />
       <Header />
       <main>

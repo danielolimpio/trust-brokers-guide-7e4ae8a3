@@ -14,7 +14,7 @@ export default function MarketMakers() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Market Maker Forex Brokers 2025 – Fixed Spreads & Guaranteed Execution"
+        title="Market Maker Forex Brokers 2026 – Fixed Spreads & Guaranteed Execution"
         description="Market maker forex brokers with fixed spreads, guaranteed liquidity, and instant execution. Perfect for beginners with predictable trading costs."
         canonical="https://brokertrusted.com/market-makers"
         keywords={["market maker brokers","fixed spreads","dealing desk brokers","guaranteed execution","forex market makers"]}

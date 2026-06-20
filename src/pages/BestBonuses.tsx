@@ -11,7 +11,7 @@ export default function BestBonuses() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best Forex Broker Bonuses & Promotions 2025"
+        title="Best Forex Broker Bonuses & Promotions 2026"
         description="Discover forex brokers offering the best welcome bonuses, deposit bonuses, and promotions. Maximize your trading capital with verified broker offers."
         canonical="https://brokertrusted.com/best-bonuses"
         keywords={["forex bonuses","welcome bonus","deposit bonus","broker promotions","trading bonuses"]}

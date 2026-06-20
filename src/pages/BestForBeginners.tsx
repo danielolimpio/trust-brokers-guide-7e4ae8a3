@@ -14,7 +14,7 @@ export default function BestForBeginners() {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Best Forex Brokers for Beginners 2025 – Low Deposit & Easy to Use"
+        title="Best Forex Brokers for Beginners 2026 – Low Deposit & Easy to Use"
         description="Start forex trading with beginner-friendly brokers. Low minimum deposits, educational resources, demo accounts, and easy-to-use platforms for new traders."
         canonical="https://brokertrusted.com/best-for-beginners"
         keywords={["forex for beginners","beginner brokers","low deposit brokers","easy forex trading","demo accounts"]}
