@@ -1,5 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
+import { useLocation } from 'react-router-dom';
+import { getSeoKeywords } from '@/lib/seoKeywords';
 
 interface SEOProps {
   title?: string;
@@ -23,6 +25,7 @@ export const SEO = ({
   structuredData
 }: SEOProps) => {
   const { i18n } = useTranslation();
+  const location = useLocation();
   
   const siteTitle = "BrokerTrusted";
   const defaultDescription = "BrokerTrusted – Verified & Regulated Forex Brokers You Can Trust. Independent reviews of the safest, most trusted forex brokers in 2026.";
@@ -30,13 +33,14 @@ export const SEO = ({
   const fullTitle = title ? `${title} | ${siteTitle}` : `${siteTitle} – Verified & Regulated Forex Brokers You Can Trust`;
   const metaDescription = description || defaultDescription;
   const currentUrl = canonical || window.location.href;
+  const expandedKeywords = getSeoKeywords(location.pathname, keywords);
   
   return (
     <Helmet>
       {/* Basic Meta Tags */}
       <title>{fullTitle}</title>
       <meta name="description" content={metaDescription} />
-      {keywords.length > 0 && <meta name="keywords" content={keywords.join(', ')} />}
+      <meta name="keywords" content={expandedKeywords.join(', ')} />
       <meta name="robots" content={noindex ? "noindex,nofollow" : "index,follow"} />
       <meta name="language" content={i18n.language} />
       <link rel="canonical" href={currentUrl} />
