@@ -10,7 +10,16 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 
-# SPA fallback: serve index.html for client-side routes
+# Keep clean URLs canonical: remove trailing slash except homepage
+RewriteCond %{REQUEST_URI} .+/$
+RewriteCond %{REQUEST_URI} !^/$
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
+# Serve pre-rendered SSG pages at extensionless URLs without forcing a trailing slash
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(.+)$ $1/index.html [L]
+
+# SPA fallback: serve index.html for client-side routes that are not pre-rendered
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.html [L]
