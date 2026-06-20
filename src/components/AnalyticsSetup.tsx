@@ -18,7 +18,7 @@ export function AnalyticsSetup() {
     // Initialize Google Analytics 4
     if (typeof window !== 'undefined') {
       window.dataLayer = window.dataLayer || [];
-      function gtag(command: string, targetId: string | Date, config?: any) {
+      function gtag(command: string, targetId: string, config?: any) {
         window.dataLayer.push(arguments);
       }
       window.gtag = window.gtag || gtag;
