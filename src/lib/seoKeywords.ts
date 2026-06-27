@@ -410,6 +410,8 @@ const pageKeywordClusters: Record<string, string[]> = {
   ],
 };
 
+import { longTailAll } from "./seoLongTail";
+
 export const getSeoKeywords = (path = "/", suppliedKeywords: string[] = []) => {
   const normalizedPath = path === "" ? "/" : path.replace(/\/$/, "") || "/";
   const pageKeywords = pageKeywordClusters[normalizedPath] || [];
@@ -421,6 +423,7 @@ export const getSeoKeywords = (path = "/", suppliedKeywords: string[] = []) => {
       ...primaryForexKeywords,
       ...secondaryForexKeywords,
       ...longTailForexKeywords,
+      ...longTailAll,
     ]),
   );
 };
