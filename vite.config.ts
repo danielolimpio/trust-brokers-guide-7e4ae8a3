@@ -60,7 +60,7 @@ export default defineConfig(({ mode }) => ({
         rendererOptions: {
           maxConcurrentRoutes: 4,
           renderAfterTime: 2000,
-          headless: "new",
+          headless: true,
           launchOptions: {
             args: ["--no-sandbox", "--disable-setuid-sandbox"],
           },
