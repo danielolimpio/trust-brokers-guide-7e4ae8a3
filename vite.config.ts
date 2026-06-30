@@ -12,6 +12,8 @@ const PRERENDER_ROUTES = [
   "/brokers",
   "/news",
   "/blog",
+  "/blog/como-escolher-corretora-forex-confiavel-2026",
+  "/blog/spread-forex-custos-comparar-corretoras-2026",
   "/contact",
   "/best-forex-brokers",
   "/top-regulated-brokers",
