@@ -193,9 +193,8 @@ const BlogArticle = () => {
   };
 
   const breadcrumbs = [
-    { label: "Home", href: "/" },
     { label: "Blog", href: "/blog" },
-    { label: article.title, href: `/blog/${article.slug}` },
+    { label: article.title },
   ];
 
   const relatedStatic = blogArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
