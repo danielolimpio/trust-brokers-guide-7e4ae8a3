@@ -5,13 +5,15 @@ import { componentTagger } from "lovable-tagger";
 import prerender from "@prerenderer/rollup-plugin";
 
 // Routes to pre-render as static HTML (improves SEO / indexability).
-// Dynamic routes (e.g. /broker/:brokerId) and admin routes are intentionally excluded.
+// Broker dynamic routes and admin routes are intentionally excluded; static blog articles are included.
 const PRERENDER_ROUTES = [
   "/",
   "/about",
   "/brokers",
   "/news",
   "/blog",
+  "/blog/como-escolher-corretora-forex-confiavel-2026",
+  "/blog/spread-forex-custos-comparar-corretoras-2026",
   "/contact",
   "/best-forex-brokers",
   "/top-regulated-brokers",

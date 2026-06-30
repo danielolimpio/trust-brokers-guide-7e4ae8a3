@@ -16,6 +16,7 @@ import UnifiedAdmin from "./pages/admin/UnifiedAdmin";
 import Brokers from "./pages/Brokers";
 import NewsBrokers from "./pages/NewsBrokers";
 import Blog from "./pages/Blog";
+import BlogArticle from "./pages/BlogArticle";
 import Contact from "./pages/Contact";
 import BestForexBrokers from "./pages/BestForexBrokers";
 import TopRegulatedBrokers from "./pages/TopRegulatedBrokers";
@@ -54,6 +55,7 @@ const App = () => (
             <Route path="/brokers" element={<Brokers />} />
             <Route path="/news" element={<NewsBrokers />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogArticle />} />
             <Route path="/contact" element={<Contact />} />
             
             {/* Broker Category Pages */}
