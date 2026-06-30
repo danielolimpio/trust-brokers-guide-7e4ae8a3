@@ -19,6 +19,8 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { AuthorInline, AuthorCard } from "@/components/AuthorBlock";
+import { danielOlimpio } from "@/data/author";
 import { blogArticles, getBlogArticleBySlug, type ArticleSection } from "@/data/blogArticles";
 
 const formatDate = (date: string) =>
