@@ -26,7 +26,7 @@ const formatDate = (date: string) =>
     day: "2-digit",
     month: "long",
     year: "numeric",
-  }).format(new Date(date));
+  }).format(new Date(`${date}T12:00:00`));
 
 const absoluteUrl = (path: string) => new URL(path, "https://brokertrusted.com").href;
 
