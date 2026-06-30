@@ -44,9 +44,11 @@ export type BlogArticle = {
   coverAlt: string;
   coverTitle: string;
   coverCaption: string;
+  coverDescription: string;
   midAlt: string;
   midTitle: string;
   midCaption: string;
+  midDescription: string;
   intro: string[];
   keyTakeaways: string[];
   sections: ArticleSection[];
@@ -112,9 +114,11 @@ export const blogArticles: BlogArticle[] = [
     coverAlt: "Trader profissional analisando corretora forex confiável em monitores com gráficos e símbolo de segurança",
     coverTitle: "Como escolher uma corretora forex confiável em 2026",
     coverCaption: "A escolha de uma corretora forex confiável começa pela verificação de regulação, custos transparentes e proteção operacional.",
+    coverDescription: "Imagem realista para guia SEO sobre análise de corretora forex confiável, com foco em segurança, regulação e tomada de decisão profissional.",
     midAlt: "Checklist de segurança para verificar regulamentação de corretora forex antes de abrir conta",
     midTitle: "Checklist de verificação de corretora forex regulamentada",
     midCaption: "Antes de depositar, confirme licença, entidade contratual, métodos de saque, documentos de risco e histórico de atendimento.",
+    midDescription: "Imagem editorial posicionada no meio do artigo para reforçar o processo de due diligence, conferência de licença e avaliação de riscos de brokers Forex.",
     intro: [
       "Escolher uma corretora forex confiável em 2026 exige mais do que comparar bônus, alavancagem ou uma promessa de spread baixo. O mercado evoluiu, os produtos ficaram mais sofisticados, os reguladores endureceram regras em várias jurisdições e o trader brasileiro passou a ter acesso a dezenas de brokers internacionais. Essa variedade é positiva, mas também aumenta o risco de escolher uma empresa inadequada para o seu perfil.",
       "A pergunta que realmente importa não é apenas qual corretora paga mais bônus ou qual plataforma parece mais bonita. A pergunta certa é: esta corretora é segura, regulamentada, transparente nos custos, eficiente nos saques e compatível com minha forma de operar? Quando essa análise é feita com calma, a chance de evitar problemas aumenta consideravelmente.",
@@ -438,9 +442,11 @@ export const blogArticles: BlogArticle[] = [
     coverAlt: "Monitores com gráficos de Forex e dados de spread para comparar custos de corretoras",
     coverTitle: "Spread Forex e custos reais de negociação em 2026",
     coverCaption: "O menor spread anunciado nem sempre representa o menor custo real. Comissão, swap e execução também entram na conta.",
+    coverDescription: "Imagem realista otimizada para SEO sobre spread forex, custos de negociação, comparação de corretoras e análise profissional de gráficos.",
     midAlt: "Trader calculando spread, comissão e custo total de operações Forex em uma mesa profissional",
     midTitle: "Como calcular o custo total de uma operação Forex",
     midCaption: "Comparar corretoras exige olhar para spread, comissão, swap, slippage e taxas de conversão de forma integrada.",
+    midDescription: "Imagem de apoio no meio do artigo mostrando cálculo de spread, comissão e custo total para traders que comparam brokers Forex em 2026.",
     intro: [
       "Spread forex é uma das primeiras expressões que um trader encontra ao comparar corretoras. Ele aparece em páginas de marketing, contas standard, contas raw, plataformas MetaTrader, tabelas de pares de moedas e rankings de brokers. Apesar disso, muita gente ainda escolhe corretora olhando apenas para o menor número anunciado, sem calcular o custo real da operação.",
       "Em 2026, essa análise ficou ainda mais importante. A concorrência entre corretoras aumentou, as contas com spread zero se tornaram mais comuns, plataformas avançadas popularizaram dados de execução e traders brasileiros passaram a comparar brokers globais com mais critérios. O problema é que spread baixo pode vir acompanhado de comissão, swap elevado, taxa de conversão, slippage ou regras pouco claras.",
