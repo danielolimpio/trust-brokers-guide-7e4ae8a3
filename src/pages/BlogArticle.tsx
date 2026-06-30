@@ -44,7 +44,7 @@ const Callout = ({ callout }: { callout: NonNullable<ArticleSection["callout"]> 
       <div className="flex gap-3">
         <Icon className="mt-1 h-5 w-5 flex-shrink-0" />
         <div>
-          <p className="font-bold">{callout.title}</p>
+          <h4 className="font-bold">{callout.title}</h4>
           <p className="mt-2 leading-relaxed">{callout.text}</p>
         </div>
       </div>
