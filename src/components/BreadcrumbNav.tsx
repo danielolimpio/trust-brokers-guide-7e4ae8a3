@@ -18,41 +18,54 @@ interface BreadcrumbItem {
 interface BreadcrumbNavProps {
   items?: BreadcrumbItem[];
   className?: string;
+  variant?: "default" | "light";
 }
 
-export function BreadcrumbNav({ items, className }: BreadcrumbNavProps) {
+export function BreadcrumbNav({ items, className, variant = "default" }: BreadcrumbNavProps) {
   const location = useLocation();
-  
+
   // Auto-generate breadcrumbs if not provided
   const autoItems: BreadcrumbItem[] = items || generateBreadcrumbs(location.pathname);
+
+  const isLight = variant === "light";
+  const homeLinkClass = isLight
+    ? "flex items-center space-x-1 text-white hover:text-emerald-200"
+    : "flex items-center space-x-1";
+  const linkClass = isLight
+    ? "text-white/85 hover:text-white"
+    : "text-muted-foreground hover:text-foreground";
+  const pageClass = isLight
+    ? "font-semibold text-white"
+    : "font-medium text-foreground";
+  const separatorClass = isLight ? "text-white/70" : "";
 
   return (
     <nav className={className} aria-label="Breadcrumb navigation">
       <Breadcrumb>
-        <BreadcrumbList>
+        <BreadcrumbList className={isLight ? "text-white" : undefined}>
           {/* Home link */}
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link to="/" className="flex items-center space-x-1">
+              <Link to="/" className={homeLinkClass}>
                 <Home className="h-4 w-4" />
                 <span>Home</span>
               </Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
-          
+
           {autoItems.map((item, index) => (
             <div key={index} className="flex items-center">
-              <BreadcrumbSeparator>
+              <BreadcrumbSeparator className={separatorClass}>
                 <ChevronRight className="h-4 w-4" />
               </BreadcrumbSeparator>
               <BreadcrumbItem>
                 {item.current || !item.href ? (
-                  <BreadcrumbPage className="font-medium text-foreground">
+                  <BreadcrumbPage className={pageClass}>
                     {item.label}
                   </BreadcrumbPage>
                 ) : (
                   <BreadcrumbLink asChild>
-                    <Link to={item.href} className="text-muted-foreground hover:text-foreground">
+                    <Link to={item.href} className={linkClass}>
                       {item.label}
                     </Link>
                   </BreadcrumbLink>
