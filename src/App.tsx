@@ -55,7 +55,7 @@ const App = () => (
             <Route path="/brokers" element={<Brokers />} />
             <Route path="/news" element={<NewsBrokers />} />
             <Route path="/blog" element={<Blog />} />
-             <Route path="/blog/:slug" element={<BlogArticle />} />
+            <Route path="/blog/:slug" element={<BlogArticle />} />
             <Route path="/contact" element={<Contact />} />
             
             {/* Broker Category Pages */}
