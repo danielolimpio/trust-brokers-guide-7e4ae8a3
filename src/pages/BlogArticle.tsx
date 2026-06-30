@@ -232,6 +232,7 @@ const BlogArticle = () => {
               <figure className="overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-3 shadow-2xl backdrop-blur">
                 <img src={article.coverImage} alt={article.coverAlt} title={article.coverTitle} className="h-full max-h-[460px] w-full rounded-[1.5rem] object-cover" />
                 <figcaption className="px-3 pb-1 pt-3 text-sm leading-6 text-slate-200">{article.coverCaption}</figcaption>
+                <p className="px-3 pb-2 text-xs leading-5 text-slate-300">Descrição SEO: {article.coverDescription}</p>
               </figure>
             </div>
           </div>
@@ -269,6 +270,7 @@ const BlogArticle = () => {
                       <figure className="mb-12 overflow-hidden rounded-[2rem] border bg-card p-3 shadow-elegant">
                         <img src={article.midImage} alt={article.midAlt} title={article.midTitle} className="max-h-[520px] w-full rounded-[1.5rem] object-cover" />
                         <figcaption className="px-3 pb-1 pt-3 text-sm leading-6 text-muted-foreground">{article.midCaption}</figcaption>
+                        <p className="px-3 pb-2 text-xs leading-5 text-muted-foreground">Descrição SEO: {article.midDescription}</p>
                       </figure>
                     )}
                     <SectionBlock section={section} index={index} />
