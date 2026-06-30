@@ -40,10 +40,7 @@ const Blog = () => {
     );
   }, [searchTerm]);
 
-  const breadcrumbs = [
-    { label: "Home", href: "/" },
-    { label: "Blog", href: "/blog" },
-  ];
+  const breadcrumbs = [{ label: "Blog" }];
 
   const structuredData = {
     "@context": "https://schema.org",
