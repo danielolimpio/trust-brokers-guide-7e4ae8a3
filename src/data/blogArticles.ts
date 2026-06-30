@@ -60,7 +60,7 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: "como-escolher-corretora-forex-confiavel-2026",
     title: "Como Escolher uma Corretora Forex Confiável em 2026",
-    seoTitle: "Como Escolher Corretora Forex Confiável em 2026",
+    seoTitle: "Corretora Forex Confiável 2026",
     metaDescription: "Guia completo para escolher corretora forex confiável em 2026: regulação, custos, segurança, spreads e checklist prático.",
     excerpt: "Aprenda a avaliar regulamentação, custos, plataformas, reputação, proteção ao cliente e sinais de alerta antes de abrir conta em uma corretora forex.",
     category: "Guia de Corretoras",
@@ -386,7 +386,7 @@ export const blogArticles: BlogArticle[] = [
   {
     slug: "spread-forex-custos-comparar-corretoras-2026",
     title: "Spread Forex: Como Comparar Custos Reais entre Corretoras em 2026",
-    seoTitle: "Spread Forex: Como Comparar Custos em 2026",
+    seoTitle: "Spread Forex e Custos 2026",
     metaDescription: "Entenda spread forex, comissão, swap e custo total. Guia 2026 para comparar corretoras e evitar taxas escondidas.",
     excerpt: "Um guia completo para entender spread forex, comissão, swap, slippage e custo total de negociação antes de escolher uma corretora.",
     category: "Custos de Trading",
