@@ -58,7 +58,9 @@ export type BlogArticle = {
   relatedArticles: { title: string; href: string; description: string }[];
 };
 
-export const blogArticles: BlogArticle[] = [
+import { extraBlogArticles } from "./blogArticlesExtra";
+
+const baseBlogArticles: BlogArticle[] = [
   {
     slug: "como-escolher-corretora-forex-confiavel-2026",
     title: "Como Escolher uma Corretora Forex Confiável em 2026",
@@ -708,6 +710,8 @@ export const blogArticles: BlogArticle[] = [
     ],
   },
 ];
+
+export const blogArticles: BlogArticle[] = [...extraBlogArticles, ...baseBlogArticles];
 
 export const getBlogArticleBySlug = (slug?: string) =>
   blogArticles.find((article) => article.slug === slug);

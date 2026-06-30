@@ -88,7 +88,7 @@ const Blog = () => {
         <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-primary to-emerald-950 py-14 text-white md:py-20">
           <div className="absolute inset-0 opacity-20 [background-image:radial-gradient(circle_at_18%_20%,#34d399_0,transparent_27%),radial-gradient(circle_at_82%_0%,#60a5fa_0,transparent_25%)]" />
           <div className="container relative z-10 mx-auto px-4">
-            <BreadcrumbNav items={breadcrumbs} />
+            <BreadcrumbNav items={breadcrumbs} variant="light" />
             <div className="mx-auto mt-8 max-w-4xl text-center">
               <Badge className="mb-5 bg-success/20 text-emerald-200 hover:bg-success/25">Conteúdo premium em português</Badge>
               <h1 className="text-4xl font-black leading-tight md:text-6xl">Blog BrokerTrusted</h1>

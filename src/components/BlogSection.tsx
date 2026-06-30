@@ -20,7 +20,7 @@ export function BlogSection() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-          {blogArticles.map((post) => (
+          {blogArticles.slice(0, 2).map((post) => (
             <Card key={post.slug} className="group overflow-hidden hover:shadow-elegant transition-all duration-300 animate-slide-up">
               <Link to={`/blog/${post.slug}`} className="aspect-video overflow-hidden block bg-muted">
                 <img

@@ -19,6 +19,8 @@ import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { AuthorInline, AuthorCard } from "@/components/AuthorBlock";
+import { danielOlimpio } from "@/data/author";
 import { blogArticles, getBlogArticleBySlug, type ArticleSection } from "@/data/blogArticles";
 
 const formatDate = (date: string) =>
@@ -170,9 +172,11 @@ const BlogArticle = () => {
         inLanguage: "pt-BR",
         mainEntityOfPage: articleUrl,
         author: {
-          "@type": "Organization",
-          name: article.author.name,
-          url: "https://brokertrusted.com/about",
+          "@type": "Person",
+          name: danielOlimpio.name,
+          jobTitle: danielOlimpio.role,
+          url: danielOlimpio.website,
+          sameAs: danielOlimpio.socials.map((s) => s.href),
         },
         publisher: {
           "@type": "Organization",
@@ -217,16 +221,16 @@ const BlogArticle = () => {
         <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-primary to-emerald-950 py-10 text-white md:py-16">
           <div className="absolute inset-0 opacity-20 [background-image:radial-gradient(circle_at_20%_20%,#34d399_0,transparent_28%),radial-gradient(circle_at_80%_0%,#60a5fa_0,transparent_24%)]" />
           <div className="container relative z-10 mx-auto px-4">
-            <BreadcrumbNav items={breadcrumbs} />
+            <BreadcrumbNav items={breadcrumbs} variant="light" />
             <div className="mt-8 grid gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
               <div>
                 <Badge className="mb-5 bg-success/20 text-emerald-200 hover:bg-success/25">{article.category}</Badge>
                 <h1 className="max-w-4xl text-4xl font-black leading-tight md:text-6xl">{article.title}</h1>
                 <p className="mt-6 max-w-3xl text-xl leading-8 text-slate-200">{article.excerpt}</p>
-                <div className="mt-7 flex flex-wrap gap-4 text-sm text-slate-300">
+                <div className="mt-7 flex flex-wrap items-center gap-5 text-sm text-slate-300">
+                  <AuthorInline />
                   <span className="inline-flex items-center gap-2"><Calendar className="h-4 w-4" /> {formatDate(article.publishedAt)}</span>
                   <span className="inline-flex items-center gap-2"><Clock className="h-4 w-4" /> {article.readTime}</span>
-                  <span className="inline-flex items-center gap-2"><User className="h-4 w-4" /> {article.author.name}</span>
                 </div>
               </div>
               <figure className="overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-3 shadow-2xl backdrop-blur">
@@ -352,17 +356,7 @@ const BlogArticle = () => {
                 </div>
               </section>
 
-              <section className="mt-14 rounded-3xl border bg-gradient-to-br from-slate-950 to-primary p-6 text-white shadow-elegant md:p-8">
-                <div className="flex flex-col gap-5 md:flex-row md:items-center">
-                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-white/10 text-2xl font-black">BT</div>
-                  <div>
-                    <p className="text-sm uppercase tracking-[0.18em] text-emerald-200">Autor</p>
-                    <h2 className="text-2xl font-bold">{article.author.name}</h2>
-                    <p className="mt-1 text-emerald-100">{article.author.role}</p>
-                    <p className="mt-3 max-w-3xl leading-7 text-slate-200">{article.author.bio}</p>
-                  </div>
-                </div>
-              </section>
+              <AuthorCard />
             </article>
 
             <aside className="lg:sticky lg:top-24 lg:self-start">
