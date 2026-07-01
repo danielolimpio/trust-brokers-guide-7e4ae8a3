@@ -10,6 +10,11 @@
 - [Blog](/blog): Original long-form forex guides, broker education, market analysis and trading costs.
 - [Como Escolher uma Corretora Forex Confiável em 2026](/blog/como-escolher-corretora-forex-confiavel-2026): Portuguese evergreen guide covering broker regulation, safety, costs, platforms, reputation and due diligence.
 - [Spread Forex: Como Comparar Custos Reais em 2026](/blog/spread-forex-custos-comparar-corretoras-2026): Portuguese long-form guide explaining spreads, commissions, swaps, slippage and total trading costs.
+- [Alavancagem no Forex: Guia Completo 2026](/blog/alavancagem-forex-guia-completo-2026): Portuguese guide on leverage, margin, position sizing and risk management.
+- [Análise Técnica para Forex 2026](/blog/analise-tecnica-forex-indicadores-padroes-2026): Portuguese guide covering indicators, chart patterns and strategies.
+- [Gestão de Risco no Forex 2026](/blog/gestao-de-risco-forex-proteger-capital-2026): Portuguese guide on protecting capital, position sizing and risk-reward.
+- [Melhores Plataformas de Trading Forex 2026](/blog/melhores-plataformas-trading-forex-2026): Portuguese in-depth comparison of MT4, MT5, cTrader and TradingView.
+- [Psicologia do Trading Forex 2026](/blog/psicologia-trading-forex-controlar-emocoes-2026): Portuguese guide on emotional control, discipline, biases and trader routine.
 
 ## Brokers
 
