@@ -712,7 +712,7 @@ const baseBlogArticles: BlogArticle[] = [
   },
 ];
 
-export const blogArticles: BlogArticle[] = [...extraBlogArticles, ...baseBlogArticles];
+export const blogArticles: BlogArticle[] = [...newBlogArticles2026, ...extraBlogArticles, ...baseBlogArticles];
 
 export const getBlogArticleBySlug = (slug?: string) =>
   blogArticles.find((article) => article.slug === slug);
