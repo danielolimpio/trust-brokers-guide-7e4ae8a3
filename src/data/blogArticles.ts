@@ -59,6 +59,7 @@ export type BlogArticle = {
 };
 
 import { extraBlogArticles } from "./blogArticlesExtra";
+import { newBlogArticles2026 } from "./blogArticlesNew2026";
 
 const baseBlogArticles: BlogArticle[] = [
   {
