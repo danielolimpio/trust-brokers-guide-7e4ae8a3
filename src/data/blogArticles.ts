@@ -604,7 +604,6 @@ export const blogArticles: BlogArticle[] = [
             ["Cryptocurrencies", "1:2"],
           ],
         },
-        paragraphs2: undefined,
         callout: {
           title: "Warning",
           text: "Professional client status removes retail caps but also removes some protections (like guaranteed negative balance protection). Do not apply for pro status just to get higher leverage.",
@@ -1253,7 +1252,6 @@ export const blogArticles: BlogArticle[] = [
           "Confirmation bias: once in a position, we unconsciously seek information that supports it and dismiss information that contradicts it. This is why the average retail trader averages down.",
           "Recency bias: the last few trades weigh disproportionately on the next decision. Two wins in a row triggers oversizing; two losses in a row triggers hesitation or revenge trading.",
         ],
-        paragraphs2: undefined,
       },
       {
         id: "revenge-trading",
@@ -1510,7 +1508,6 @@ export const blogArticles: BlogArticle[] = [
             ["Focused on individual company analysis / dividends", "Stocks"],
           ],
         },
-        paragraphs2: undefined,
       },
       {
         id: "final-take",
@@ -1613,7 +1610,6 @@ export const blogArticles: BlogArticle[] = [
           "High — the highest price traded during the period. Shown as the upper wick.",
           "Low — the lowest price traded. Shown as the lower wick.",
         ],
-        paragraphs2: undefined,
       },
       {
         id: "candlestick-patterns",
