@@ -24,7 +24,7 @@ import { danielOlimpio } from "@/data/author";
 import { blogArticles, getBlogArticleBySlug, type ArticleSection } from "@/data/blogArticles";
 
 const formatDate = (date: string) =>
-  new Intl.DateTimeFormat("pt-BR", {
+  new Intl.DateTimeFormat("en-US", {
     day: "2-digit",
     month: "long",
     year: "numeric",
@@ -70,7 +70,7 @@ const SectionBlock = ({ section, index }: { section: ArticleSection; index: numb
     {section.bullets && (
       <div className="mt-7 rounded-2xl border bg-card p-5 shadow-sm">
         <h3 className="mb-4 flex items-center gap-2 text-xl font-bold text-foreground">
-          <CheckCircle2 className="h-5 w-5 text-success" /> Pontos importantes
+          <CheckCircle2 className="h-5 w-5 text-success" /> Key points
         </h3>
         <ul className="space-y-3">
           {section.bullets.map((item) => (
@@ -85,7 +85,7 @@ const SectionBlock = ({ section, index }: { section: ArticleSection; index: numb
 
     {section.ordered && (
       <div className="mt-7 rounded-2xl border bg-gradient-to-br from-slate-50 to-white p-5 shadow-sm">
-        <h3 className="mb-4 text-xl font-bold text-foreground">Checklist passo a passo</h3>
+        <h3 className="mb-4 text-xl font-bold text-foreground">Step-by-step checklist</h3>
         <ol className="space-y-4">
           {section.ordered.map((item, itemIndex) => (
             <li key={item} className="flex gap-4 text-muted-foreground">
@@ -134,14 +134,14 @@ const SectionBlock = ({ section, index }: { section: ArticleSection; index: numb
       <div className="my-10 rounded-3xl border border-success/25 bg-gradient-to-r from-primary via-primary/95 to-emerald-900 p-6 text-primary-foreground shadow-elegant">
         <div className="grid gap-5 md:grid-cols-[1fr_auto] md:items-center">
           <div>
-            <h3 className="text-2xl font-bold">Compare corretoras antes de depositar</h3>
+            <h3 className="text-2xl font-bold">Compare brokers before you deposit</h3>
             <p className="mt-2 max-w-2xl text-primary-foreground/85">
-              Veja rankings independentes, custos, regulação, plataformas e perfis recomendados no BrokerTrusted.
+              Independent rankings on regulation, spreads, platforms and best-fit trader profiles at BrokerTrusted.
             </p>
           </div>
           <Button asChild className="bg-white text-primary hover:bg-white/90">
             <Link to="/brokers">
-              Ver ranking <ArrowRight className="h-4 w-4" />
+              See ranking <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>
         </div>
@@ -169,7 +169,7 @@ const BlogArticle = () => {
         image: [absoluteUrl(article.coverImage), absoluteUrl(article.midImage)],
         datePublished: article.publishedAt,
         dateModified: article.updatedAt,
-        inLanguage: "pt-BR",
+        inLanguage: "en-US",
         mainEntityOfPage: articleUrl,
         author: {
           "@type": "Person",
@@ -236,7 +236,7 @@ const BlogArticle = () => {
               <figure className="overflow-hidden rounded-[2rem] border border-white/15 bg-white/10 p-3 shadow-2xl backdrop-blur">
                 <img src={article.coverImage} alt={article.coverAlt} title={article.coverTitle} className="h-full max-h-[460px] w-full rounded-[1.5rem] object-cover" />
                 <figcaption className="px-3 pb-1 pt-3 text-sm leading-6 text-slate-200">{article.coverCaption}</figcaption>
-                <p className="px-3 pb-2 text-xs leading-5 text-slate-300">Descrição SEO: {article.coverDescription}</p>
+                <p className="px-3 pb-2 text-xs leading-5 text-slate-300">SEO description: {article.coverDescription}</p>
               </figure>
             </div>
           </div>
@@ -247,7 +247,7 @@ const BlogArticle = () => {
             <article className="mx-auto max-w-4xl">
               <div className="rounded-3xl border bg-card p-6 shadow-sm md:p-8">
                 <h2 className="flex items-center gap-2 text-2xl font-bold text-foreground">
-                  <BookOpen className="h-6 w-6 text-success" /> Resumo executivo
+                  <BookOpen className="h-6 w-6 text-success" /> Executive summary
                 </h2>
                 <div className="mt-5 space-y-4">
                   {article.intro.map((paragraph) => (
@@ -255,7 +255,7 @@ const BlogArticle = () => {
                   ))}
                 </div>
                 <div className="mt-7 rounded-2xl bg-muted/50 p-5">
-                  <h3 className="mb-4 text-xl font-bold text-foreground">Principais aprendizados</h3>
+                  <h3 className="mb-4 text-xl font-bold text-foreground">Key takeaways</h3>
                   <ul className="space-y-3">
                     {article.keyTakeaways.map((item) => (
                       <li key={item} className="flex gap-3 text-muted-foreground">
@@ -274,7 +274,7 @@ const BlogArticle = () => {
                       <figure className="mb-12 overflow-hidden rounded-[2rem] border bg-card p-3 shadow-elegant">
                         <img src={article.midImage} alt={article.midAlt} title={article.midTitle} className="max-h-[520px] w-full rounded-[1.5rem] object-cover" />
                         <figcaption className="px-3 pb-1 pt-3 text-sm leading-6 text-muted-foreground">{article.midCaption}</figcaption>
-                        <p className="px-3 pb-2 text-xs leading-5 text-muted-foreground">Descrição SEO: {article.midDescription}</p>
+                        <p className="px-3 pb-2 text-xs leading-5 text-muted-foreground">SEO description: {article.midDescription}</p>
                       </figure>
                     )}
                     <SectionBlock section={section} index={index} />
@@ -283,7 +283,7 @@ const BlogArticle = () => {
               </div>
 
               <section className="mt-14 rounded-3xl border bg-card p-6 shadow-sm md:p-8">
-                <h2 className="text-3xl font-bold text-foreground">Links internos recomendados</h2>
+                <h2 className="text-3xl font-bold text-foreground">Recommended internal reads</h2>
                 <div className="mt-6 grid gap-4 md:grid-cols-3">
                   {article.internalLinks.map((link) => (
                     <Link key={link.href} to={link.href} className="rounded-2xl border p-5 transition hover:-translate-y-1 hover:shadow-card">
@@ -295,8 +295,8 @@ const BlogArticle = () => {
               </section>
 
               <section className="mt-14 rounded-3xl border bg-card p-6 shadow-sm md:p-8">
-                <h2 className="text-3xl font-bold text-foreground">Fontes externas oficiais e confiáveis</h2>
-                <p className="mt-3 text-muted-foreground">Links verificados em fontes de alta autoridade usados para apoiar conceitos de regulação, plataformas e proteção ao investidor.</p>
+                <h2 className="text-3xl font-bold text-foreground">Trusted external sources</h2>
+                <p className="mt-3 text-muted-foreground">Verified references from high-authority sources supporting the regulation, platform and investor-protection concepts in this guide.</p>
                 <div className="mt-6 space-y-4">
                   {article.externalLinks.map((link) => (
                     <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer" className="flex gap-3 rounded-2xl border p-5 transition hover:border-success/40 hover:bg-success/5">
@@ -311,19 +311,19 @@ const BlogArticle = () => {
               </section>
 
               <section className="mt-14 rounded-3xl border border-success/30 bg-gradient-to-br from-emerald-50 to-white p-6 shadow-sm md:p-8">
-                <h2 className="text-3xl font-bold text-foreground">Acesse o ranking das melhores corretoras Forex</h2>
+                <h2 className="text-3xl font-bold text-foreground">See the best forex brokers ranking</h2>
                 <p className="mt-4 text-lg leading-8 text-muted-foreground">
-                  Antes de abrir conta, compare brokers por regulação, spreads, plataformas, reputação, bônus, suporte e perfil de trader. O ranking da BrokerTrusted ajuda você a filtrar opções com mais clareza.
+                  Before opening an account, compare brokers by regulation, spreads, platforms, reputation, bonuses, support and trader profile. The BrokerTrusted ranking helps you filter options with clarity.
                 </p>
                 <Button asChild size="lg" className="mt-6 bg-success text-white hover:bg-success/90">
                   <Link to="/brokers">
-                    Ver melhores corretoras Forex <ArrowRight className="h-4 w-4" />
+                    See best forex brokers <ArrowRight className="h-4 w-4" />
                   </Link>
                 </Button>
               </section>
 
               <section className="mt-14">
-                <h2 className="text-3xl font-bold text-foreground">Perguntas frequentes</h2>
+                <h2 className="text-3xl font-bold text-foreground">Frequently asked questions</h2>
                 <div className="mt-6 space-y-4">
                   {article.faq.map((item) => (
                     <details key={item.question} className="group rounded-2xl border bg-card p-5 shadow-sm">
@@ -335,7 +335,7 @@ const BlogArticle = () => {
               </section>
 
               <section className="mt-14 rounded-3xl border bg-card p-6 shadow-sm md:p-8">
-                <h2 className="text-3xl font-bold text-foreground">Artigos relacionados</h2>
+                <h2 className="text-3xl font-bold text-foreground">Related articles</h2>
                 <div className="mt-6 grid gap-5 md:grid-cols-2">
                   {relatedStatic.map((item) => (
                     <Link key={item.slug} to={`/blog/${item.slug}`} className="group overflow-hidden rounded-2xl border transition hover:-translate-y-1 hover:shadow-card">
@@ -363,7 +363,7 @@ const BlogArticle = () => {
               <div className="space-y-6">
                 <Card className="overflow-hidden border-success/25 shadow-card">
                   <CardContent className="p-6">
-                    <h2 className="text-xl font-bold text-foreground">Neste artigo</h2>
+                    <h2 className="text-xl font-bold text-foreground">In this article</h2>
                     <nav className="mt-4 max-h-[420px] space-y-2 overflow-auto pr-2">
                       {article.sections.map((section) => (
                         <a key={section.id} href={`#${section.id}`} className="block rounded-lg px-3 py-2 text-sm text-muted-foreground transition hover:bg-success/10 hover:text-success">
@@ -376,19 +376,19 @@ const BlogArticle = () => {
 
                 <Card className="bg-gradient-to-br from-primary to-emerald-950 text-white shadow-elegant">
                   <CardContent className="p-6">
-                    <h2 className="text-2xl font-bold">Compare brokers agora</h2>
-                    <p className="mt-3 leading-7 text-slate-200">Veja corretoras avaliadas por segurança, custos e experiência do usuário.</p>
+                    <h2 className="text-2xl font-bold">Compare brokers now</h2>
+                    <p className="mt-3 leading-7 text-slate-200">Independent broker rankings by safety, cost and user experience.</p>
                     <Button asChild className="mt-5 w-full bg-white text-primary hover:bg-white/90">
-                      <Link to="/brokers">Abrir ranking</Link>
+                      <Link to="/brokers">Open ranking</Link>
                     </Button>
                   </CardContent>
                 </Card>
 
                 <Card>
                   <CardContent className="p-6">
-                    <h2 className="text-xl font-bold text-foreground">Palavra-chave principal</h2>
+                    <h2 className="text-xl font-bold text-foreground">Primary keyword</h2>
                     <Badge className="mt-3 bg-success/15 text-success hover:bg-success/20">{article.primaryKeyword}</Badge>
-                    <h3 className="mt-6 font-bold text-foreground">Cauda longa trabalhada</h3>
+                    <h3 className="mt-6 font-bold text-foreground">Long-tail keywords covered</h3>
                     <div className="mt-3 flex flex-wrap gap-2">
                       {article.secondaryKeywords.slice(0, 10).map((keyword) => (
                         <Badge key={keyword} variant="outline" className="text-xs">{keyword}</Badge>
@@ -399,7 +399,7 @@ const BlogArticle = () => {
 
                 <Card>
                   <CardContent className="p-6">
-                    <h2 className="text-xl font-bold text-foreground">Guias úteis</h2>
+                    <h2 className="text-xl font-bold text-foreground">Useful guides</h2>
                     <div className="mt-4 space-y-3">
                       {article.internalLinks.map((link) => (
                         <Link key={link.href} to={link.href} className="block rounded-xl border p-3 text-sm font-medium text-foreground transition hover:border-success/40 hover:text-success">

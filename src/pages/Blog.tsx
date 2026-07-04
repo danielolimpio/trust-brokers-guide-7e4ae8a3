@@ -12,7 +12,7 @@ import { blogArticles } from "@/data/blogArticles";
 import { useMemo, useState } from "react";
 
 const formatDate = (date: string) =>
-  new Intl.DateTimeFormat("pt-BR", {
+  new Intl.DateTimeFormat("en-US", {
     day: "2-digit",
     month: "long",
     year: "numeric",
@@ -46,9 +46,9 @@ const Blog = () => {
     "@context": "https://schema.org",
     "@type": "Blog",
     name: "BrokerTrusted Blog",
-    description: "Guias completos sobre corretoras Forex, spreads, regulação, custos de trading e segurança para traders brasileiros.",
+    description: "In-depth guides on forex brokers, spreads, regulation, trading costs and safety for retail and professional traders.",
     url: "https://brokertrusted.com/blog",
-    inLanguage: "pt-BR",
+    inLanguage: "en-US",
     publisher: {
       "@type": "Organization",
       name: "BrokerTrusted",
@@ -68,15 +68,15 @@ const Blog = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEO
-        title="Blog Forex: Guias e Rankings 2026"
-        description="Artigos completos sobre corretoras Forex, spreads, regulação, custos, trading e rankings para traders brasileiros."
+        title="Forex Blog: Broker Guides & Rankings 2026"
+        description="Original in-depth articles on forex brokers, spreads, regulation, trading costs and platform reviews for 2026."
         keywords={[
-          "blog forex",
-          "corretora forex confiável",
-          "spread forex",
-          "melhores corretoras forex",
-          "guias forex 2026",
-          "trading forex Brasil",
+          "forex blog",
+          "trusted forex broker",
+          "forex spread",
+          "best forex brokers",
+          "forex guides 2026",
+          "forex trading",
         ]}
         canonical="https://brokertrusted.com/blog"
         structuredData={structuredData}
@@ -90,16 +90,16 @@ const Blog = () => {
           <div className="container relative z-10 mx-auto px-4">
             <BreadcrumbNav items={breadcrumbs} variant="light" />
             <div className="mx-auto mt-8 max-w-4xl text-center">
-              <Badge className="mb-5 bg-success/20 text-emerald-200 hover:bg-success/25">Conteúdo premium em português</Badge>
-              <h1 className="text-4xl font-black leading-tight md:text-6xl">Blog BrokerTrusted</h1>
+              <Badge className="mb-5 bg-success/20 text-emerald-200 hover:bg-success/25">Premium editorial content</Badge>
+              <h1 className="text-4xl font-black leading-tight md:text-6xl">BrokerTrusted Blog</h1>
               <p className="mt-6 text-xl leading-8 text-slate-200">
-                Guias profundos, originais e orientados por EEAT sobre corretoras Forex, custos, regulação, rankings e decisões mais seguras no mercado financeiro.
+                In-depth, EEAT-driven guides on forex brokers, trading costs, regulation, rankings and smarter decisions across the financial markets.
               </p>
               <div className="relative mx-auto mt-8 max-w-xl">
                 <Search className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" />
                 <Input
                   type="text"
-                  placeholder="Buscar por spread, corretora, regulação..."
+                  placeholder="Search spreads, brokers, regulation..."
                   value={searchTerm}
                   onChange={(event) => setSearchTerm(event.target.value)}
                   className="h-12 border-white/20 bg-white/10 pl-12 text-white placeholder:text-slate-300 focus:bg-white/15"
@@ -112,8 +112,8 @@ const Blog = () => {
         <section className="container mx-auto px-4 py-14">
           {filteredPosts.length === 0 ? (
             <div className="rounded-3xl border bg-card p-10 text-center shadow-sm">
-              <h2 className="text-2xl font-bold text-foreground">Nenhum artigo encontrado</h2>
-              <p className="mt-3 text-muted-foreground">Tente buscar por outro termo relacionado a Forex, spreads ou corretoras.</p>
+              <h2 className="text-2xl font-bold text-foreground">No articles found</h2>
+              <p className="mt-3 text-muted-foreground">Try another term related to forex, spreads or brokers.</p>
             </div>
           ) : (
             <div className="grid gap-8 lg:grid-cols-2">
@@ -153,7 +153,7 @@ const Blog = () => {
                       <div className="mt-7">
                         <Button asChild className="bg-success text-white hover:bg-success/90">
                           <Link to={`/blog/${article.slug}`}>
-                            Ler artigo completo <ArrowRight className="h-4 w-4" />
+                            Read full article <ArrowRight className="h-4 w-4" />
                           </Link>
                         </Button>
                       </div>
@@ -165,13 +165,13 @@ const Blog = () => {
           )}
 
           <section className="mt-14 rounded-3xl border border-success/30 bg-gradient-to-br from-emerald-50 to-white p-8 text-center shadow-sm">
-            <h2 className="text-3xl font-bold text-foreground">Compare corretoras Forex antes de abrir conta</h2>
+            <h2 className="text-3xl font-bold text-foreground">Compare forex brokers before opening an account</h2>
             <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-muted-foreground">
-              Depois de estudar os guias, veja o ranking de brokers da BrokerTrusted com foco em segurança, regulação, spreads, plataformas e experiência do usuário.
+              Once you've read the guides, see the BrokerTrusted ranking focused on safety, regulation, spreads, platforms and user experience.
             </p>
             <Button asChild size="lg" className="mt-6 bg-primary text-primary-foreground hover:bg-primary/90">
               <Link to="/brokers">
-                Ver ranking de corretoras <ArrowRight className="h-4 w-4" />
+                See broker ranking <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
           </section>
