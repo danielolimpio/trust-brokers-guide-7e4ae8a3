@@ -15,7 +15,7 @@ export function BlogSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-foreground mb-4">{t("blog.title")}</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Conteúdos originais e aprofundados sobre corretoras Forex, spreads, regulação e trading para traders brasileiros.
+            Original, in-depth guides on forex brokers, spreads, regulation, trading and market structure — written by professionals for serious traders.
           </p>
         </div>
 
