@@ -49,7 +49,7 @@ const topicClusters = [
     description:
       "Broker comparisons include MetaTrader 4, MetaTrader 5, cTrader, TradingView integration, iOS and Android trading apps, demo accounts, copy trading, VPS hosting and professional account tools.",
     image:
-      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80",
     imageAlt: "Trader using mobile trading app with charts on smartphone",
     terms: [
       "forex trading platforms",
