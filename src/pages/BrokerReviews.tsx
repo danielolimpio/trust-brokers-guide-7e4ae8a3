@@ -47,6 +47,7 @@ const reviewCategories = [
 const latestReviews = [
   {
     broker: "IC Markets",
+    logo: icmarketsLogo,
     rating: 4.9,
     highlight: "Best for ECN Trading",
     summary: "IC Markets continues to excel with tight spreads, excellent execution, and comprehensive trading tools.",
@@ -55,6 +56,7 @@ const latestReviews = [
   },
   {
     broker: "Exness",
+    logo: exnessLogo,
     rating: 4.8,
     highlight: "Best Overall Broker",
     summary: "Exness maintains its position as a top-tier broker with robust regulation and competitive conditions.",
@@ -63,6 +65,7 @@ const latestReviews = [
   },
   {
     broker: "Pepperstone",
+    logo: pepperstoneLogo,
     rating: 4.8,
     highlight: "Best Trading Technology",
     summary: "Pepperstone offers cutting-edge technology with MT4, MT5, cTrader, and proprietary platforms.",
