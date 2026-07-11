@@ -248,7 +248,18 @@ export default function BrokerReviews() {
                         <span className="text-lg font-bold text-foreground">{review.rating}</span>
                       </div>
                     </div>
-                    <CardTitle className="text-2xl mb-2">{review.broker}</CardTitle>
+                    <div className="flex items-center gap-4 mb-2">
+                      <div className="h-16 w-16 rounded-lg overflow-hidden bg-white border border-border flex items-center justify-center flex-shrink-0">
+                        <img
+                          src={review.logo}
+                          alt={`${review.broker} logo`}
+                          loading="lazy"
+                          decoding="async"
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                      <CardTitle className="text-2xl">{review.broker}</CardTitle>
+                    </div>
                     <p className="text-success font-semibold">{review.highlight}</p>
                   </CardHeader>
                   <CardContent>
