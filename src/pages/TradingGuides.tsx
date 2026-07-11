@@ -146,11 +146,14 @@ export default function TradingGuides() {
       
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden">
+        <section className="relative py-24 overflow-hidden bg-slate-900">
           <img
             src={bgTradingGuides}
             alt="Forex trading charts background"
             className="absolute inset-0 w-full h-full object-cover"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/80 to-primary/70" />
           <div className="absolute inset-0 bg-black/50" />
