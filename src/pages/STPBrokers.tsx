@@ -181,47 +181,69 @@ export default function STPBrokers() {
                 STP vs Market Maker Brokers
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-card border-2 border-primary/20 rounded-xl p-6">
-                  <h3 className="font-semibold text-lg mb-4 text-primary">STP Brokers</h3>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Orders sent to external liquidity providers</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>No conflict of interest with clients</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Variable spreads based on market</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                      <span>Better for scalping and EA trading</span>
-                    </li>
-                  </ul>
+                <div className="bg-card border-2 border-primary/20 rounded-xl overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80"
+                      alt="STP broker direct market execution with real-time forex data feed"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-semibold text-lg mb-4 text-primary">STP Brokers</h3>
+                    <ul className="space-y-3 text-sm">
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span>Orders sent to external liquidity providers</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span>No conflict of interest with clients</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span>Variable spreads based on market</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                        <span>Better for scalping and EA trading</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="bg-card border border-border rounded-xl p-6">
-                  <h3 className="font-semibold text-lg mb-4">Market Maker Brokers</h3>
-                  <ul className="space-y-3 text-sm text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <span className="text-muted-foreground mt-0.5">•</span>
-                      <span>Broker takes the opposite side of your trade</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-muted-foreground mt-0.5">•</span>
-                      <span>Potential conflict of interest</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-muted-foreground mt-0.5">•</span>
-                      <span>Fixed spreads common</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-muted-foreground mt-0.5">•</span>
-                      <span>May have trading restrictions</span>
-                    </li>
-                  </ul>
+                <div className="bg-card border border-border rounded-xl overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1642790551116-18e150f248e5?auto=format&fit=crop&w=800&q=80"
+                      alt="Market maker dealing desk with fixed spread quotes on screens"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-semibold text-lg mb-4">Market Maker Brokers</h3>
+                    <ul className="space-y-3 text-sm text-muted-foreground">
+                      <li className="flex items-start gap-2">
+                        <span className="text-muted-foreground mt-0.5">•</span>
+                        <span>Broker takes the opposite side of your trade</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-muted-foreground mt-0.5">•</span>
+                        <span>Potential conflict of interest</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-muted-foreground mt-0.5">•</span>
+                        <span>Fixed spreads common</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-muted-foreground mt-0.5">•</span>
+                        <span>May have trading restrictions</span>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
