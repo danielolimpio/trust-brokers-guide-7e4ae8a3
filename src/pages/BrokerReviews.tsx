@@ -9,6 +9,9 @@ import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import bgBrokerReviews from "@/assets/bg-broker-reviews.jpg";
+import icmarketsLogo from "@/assets/brokers/ic-markets.jpeg";
+import exnessLogo from "@/assets/brokers/exness.jpeg";
+import pepperstoneLogo from "@/assets/brokers/pepperstone.jpeg";
 
 const reviewCategories = [
   {
@@ -44,6 +47,7 @@ const reviewCategories = [
 const latestReviews = [
   {
     broker: "IC Markets",
+    logo: icmarketsLogo,
     rating: 4.9,
     highlight: "Best for ECN Trading",
     summary: "IC Markets continues to excel with tight spreads, excellent execution, and comprehensive trading tools.",
@@ -52,6 +56,7 @@ const latestReviews = [
   },
   {
     broker: "Exness",
+    logo: exnessLogo,
     rating: 4.8,
     highlight: "Best Overall Broker",
     summary: "Exness maintains its position as a top-tier broker with robust regulation and competitive conditions.",
@@ -60,6 +65,7 @@ const latestReviews = [
   },
   {
     broker: "Pepperstone",
+    logo: pepperstoneLogo,
     rating: 4.8,
     highlight: "Best Trading Technology",
     summary: "Pepperstone offers cutting-edge technology with MT4, MT5, cTrader, and proprietary platforms.",
@@ -242,7 +248,18 @@ export default function BrokerReviews() {
                         <span className="text-lg font-bold text-foreground">{review.rating}</span>
                       </div>
                     </div>
-                    <CardTitle className="text-2xl mb-2">{review.broker}</CardTitle>
+                    <div className="flex items-center gap-4 mb-2">
+                      <div className="h-16 w-16 rounded-lg overflow-hidden bg-white border border-border flex items-center justify-center flex-shrink-0">
+                        <img
+                          src={review.logo}
+                          alt={`${review.broker} logo`}
+                          loading="lazy"
+                          decoding="async"
+                          className="h-full w-full object-contain"
+                        />
+                      </div>
+                      <CardTitle className="text-2xl">{review.broker}</CardTitle>
+                    </div>
                     <p className="text-success font-semibold">{review.highlight}</p>
                   </CardHeader>
                   <CardContent>

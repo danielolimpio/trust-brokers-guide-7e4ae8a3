@@ -331,17 +331,18 @@ export default function MarketAnalysis() {
                           </div>
                           <div>
                             <div
-                              className="relative overflow-hidden p-5 rounded-lg border border-success/30 shadow-elegant"
+                              className="relative overflow-hidden p-5 rounded-lg border border-emerald-400/40 shadow-elegant"
                               style={{
                                 backgroundImage: `url(${bgRecommendation})`,
                                 backgroundSize: "cover",
                                 backgroundPosition: "center",
                               }}
                             >
-                              <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/60" />
+                              <div className="absolute inset-0 bg-gradient-to-br from-slate-950/95 via-slate-900/90 to-slate-950/95" />
+                              <div className="absolute inset-0 bg-black/40" />
                               <div className="relative z-10">
-                                <div className="text-sm text-success/90 font-medium mb-2 uppercase tracking-wide">Trading Recommendation</div>
-                                <div className="font-bold text-lg text-foreground">{analysis.recommendation}</div>
+                                <div className="text-sm text-emerald-300 font-semibold mb-2 uppercase tracking-wide">Trading Recommendation</div>
+                                <div className="font-bold text-lg text-white">{analysis.recommendation}</div>
                               </div>
                             </div>
                           </div>

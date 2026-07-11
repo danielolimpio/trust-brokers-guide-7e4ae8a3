@@ -58,109 +58,153 @@ export default function MarketMakers() {
                 Understanding Market Maker Brokers
               </h2>
               <div className="grid md:grid-cols-2 gap-8 mb-8">
-                <Card className="p-8">
-                  <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                    <BarChart2 className="w-6 h-6 text-primary" />
-                    How They Work
-                  </h3>
-                  <p className="text-muted-foreground mb-4">
-                    Market makers provide liquidity by acting as the counterparty to your trades. When you buy, they sell to you, and vice versa.
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    They profit from the spread and by managing their overall risk exposure across all client positions. 
-                    This model allows them to offer fixed spreads and instant execution.
-                  </p>
+                <Card className="overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1642790551116-18e150f248e5?auto=format&fit=crop&w=800&q=80"
+                      alt="Forex dealing desk with live currency quotes on multiple monitors"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                      <BarChart2 className="w-6 h-6 text-primary" />
+                      How They Work
+                    </h3>
+                    <p className="text-muted-foreground mb-4">
+                      Market makers provide liquidity by acting as the counterparty to your trades. When you buy, they sell to you, and vice versa.
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      They profit from the spread and by managing their overall risk exposure across all client positions.
+                      This model allows them to offer fixed spreads and instant execution.
+                    </p>
+                  </div>
                 </Card>
-                <Card className="p-8">
-                  <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                    <DollarSign className="w-6 h-6 text-primary" />
-                    Pricing Model
-                  </h3>
-                  <p className="text-muted-foreground mb-4">
-                    Market makers typically offer fixed spreads and don't charge commissions. Your trading cost is built into the spread.
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    Fixed spreads remain constant regardless of market volatility, making costs predictable - great for beginners 
-                    learning to trade.
-                  </p>
+                <Card className="overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80"
+                      alt="Stack of US dollar bills next to a pricing chart on paper"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-8">
+                    <h3 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                      <DollarSign className="w-6 h-6 text-primary" />
+                      Pricing Model
+                    </h3>
+                    <p className="text-muted-foreground mb-4">
+                      Market makers typically offer fixed spreads and don't charge commissions. Your trading cost is built into the spread.
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      Fixed spreads remain constant regardless of market volatility, making costs predictable - great for beginners
+                      learning to trade.
+                    </p>
+                  </div>
                 </Card>
               </div>
 
               {/* Advantages & Disadvantages */}
               <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-background border border-border rounded-xl p-6">
-                  <h3 className="font-semibold text-lg mb-4 text-green-600 dark:text-green-400">
-                    Advantages
-                  </h3>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
-                      <div>
-                        <strong>Fixed Spreads:</strong> Predictable costs that don't widen during volatility
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
-                      <div>
-                        <strong>No Commission:</strong> Simpler pricing - all costs in the spread
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
-                      <div>
-                        <strong>Guaranteed Execution:</strong> Orders always filled at quoted price
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
-                      <div>
-                        <strong>Lower Minimum Deposits:</strong> Often more accessible for beginners
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
-                      <div>
-                        <strong>Instant Execution:</strong> No waiting for liquidity provider matching
-                      </div>
-                    </li>
-                  </ul>
+                <div className="bg-background border border-border rounded-xl overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80"
+                      alt="Rising green candlestick chart showing trading advantages"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-semibold text-lg mb-4 text-green-600 dark:text-green-400">
+                      Advantages
+                    </h3>
+                    <ul className="space-y-3 text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                        <div>
+                          <strong>Fixed Spreads:</strong> Predictable costs that don't widen during volatility
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                        <div>
+                          <strong>No Commission:</strong> Simpler pricing - all costs in the spread
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                        <div>
+                          <strong>Guaranteed Execution:</strong> Orders always filled at quoted price
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                        <div>
+                          <strong>Lower Minimum Deposits:</strong> Often more accessible for beginners
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-green-600 dark:text-green-400 mt-1">✓</span>
+                        <div>
+                          <strong>Instant Execution:</strong> No waiting for liquidity provider matching
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="bg-background border border-border rounded-xl p-6">
-                  <h3 className="font-semibold text-lg mb-4 text-orange-600 dark:text-orange-400">
-                    Considerations
-                  </h3>
-                  <ul className="space-y-3 text-sm">
-                    <li className="flex items-start gap-2">
-                      <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
-                      <div>
-                        <strong>Wider Spreads:</strong> Fixed spreads are typically wider than raw ECN spreads
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
-                      <div>
-                        <strong>Conflict of Interest:</strong> Broker profits when you lose (though regulated brokers manage this ethically)
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
-                      <div>
-                        <strong>Scalping Restrictions:</strong> Some brokers limit very short-term trading
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
-                      <div>
-                        <strong>Requotes Possible:</strong> May experience requotes during fast-moving markets
-                      </div>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
-                      <div>
-                        <strong>Less Transparency:</strong> You don't see the underlying market depth
-                      </div>
-                    </li>
-                  </ul>
+                <div className="bg-background border border-border rounded-xl overflow-hidden">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src="https://images.unsplash.com/photo-1560221328-12fe60f83ab8?auto=format&fit=crop&w=800&q=80"
+                      alt="Warning sign with trader reviewing risk considerations on screen"
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
+                  <div className="p-6">
+                    <h3 className="font-semibold text-lg mb-4 text-orange-600 dark:text-orange-400">
+                      Considerations
+                    </h3>
+                    <ul className="space-y-3 text-sm">
+                      <li className="flex items-start gap-2">
+                        <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
+                        <div>
+                          <strong>Wider Spreads:</strong> Fixed spreads are typically wider than raw ECN spreads
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
+                        <div>
+                          <strong>Conflict of Interest:</strong> Broker profits when you lose (though regulated brokers manage this ethically)
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
+                        <div>
+                          <strong>Scalping Restrictions:</strong> Some brokers limit very short-term trading
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
+                        <div>
+                          <strong>Requotes Possible:</strong> May experience requotes during fast-moving markets
+                        </div>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-orange-600 dark:text-orange-400 mt-1">!</span>
+                        <div>
+                          <strong>Less Transparency:</strong> You don't see the underlying market depth
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
