@@ -140,11 +140,14 @@ export default function MarketAnalysis() {
       
       <main>
         {/* Hero Section */}
-        <section className="relative py-20 overflow-hidden">
+        <section className="relative py-20 overflow-hidden bg-slate-900">
           <img
             src={bgMarketAnalysis}
             alt="Forex market analysis trading workstation"
             className="absolute inset-0 w-full h-full object-cover"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/70" />
           <div className="absolute inset-0 bg-black/55" />

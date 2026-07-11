@@ -61,11 +61,14 @@ export default function About() {
       
       <main>
         {/* Hero Section */}
-        <section className="relative py-24 overflow-hidden text-white">
+        <section className="relative py-24 overflow-hidden text-white bg-slate-900">
           <img
             src={bgAbout}
             alt="Forex trading workstation background"
             className="absolute inset-0 w-full h-full object-cover"
+            loading="eager"
+            decoding="async"
+            fetchPriority="high"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-background/85 via-background/75 to-primary/70" />
           <div className="absolute inset-0 bg-black/55" />
