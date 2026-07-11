@@ -116,49 +116,49 @@ const Blog = () => {
               <p className="mt-3 text-muted-foreground">Try another term related to forex, spreads or brokers.</p>
             </div>
           ) : (
-            <div className="grid gap-8 lg:grid-cols-2">
-              {filteredPosts.map((article, index) => (
-                <Card key={article.slug} className={`group overflow-hidden border-border/80 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-elegant ${index === 0 ? "lg:col-span-2" : ""}`}>
-                  <div className={`grid ${index === 0 ? "lg:grid-cols-[1.05fr_0.95fr]" : ""}`}>
-                    <Link to={`/blog/${article.slug}`} className="block overflow-hidden bg-muted">
-                      <img
-                        src={article.coverImage}
-                        alt={article.coverAlt}
-                        title={article.coverTitle}
-                        className={`w-full object-cover transition duration-500 group-hover:scale-105 ${index === 0 ? "h-80 lg:h-full" : "h-64"}`}
-                      />
-                    </Link>
-                    <CardContent className="flex flex-col p-7 md:p-8">
-                      <div className="mb-4 flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
-                        <Badge className="bg-success/10 text-success hover:bg-success/15">{article.category}</Badge>
-                        <span className="inline-flex items-center gap-1"><Calendar className="h-4 w-4" /> {formatDate(article.publishedAt)}</span>
-                        <span className="inline-flex items-center gap-1"><Clock className="h-4 w-4" /> {article.readTime}</span>
-                      </div>
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {filteredPosts.map((article) => (
+                <Card key={article.slug} className="group flex flex-col overflow-hidden border-border/80 shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-elegant">
+                  <Link to={`/blog/${article.slug}`} className="block aspect-video overflow-hidden bg-muted">
+                    <img
+                      src={article.coverImage}
+                      alt={article.coverAlt}
+                      title={article.coverTitle}
+                      loading="lazy"
+                      decoding="async"
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
+                  </Link>
+                  <CardContent className="flex flex-1 flex-col p-6">
+                    <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                      <Badge className="bg-success/10 text-success hover:bg-success/15">{article.category}</Badge>
+                      <span className="inline-flex items-center gap-1"><Calendar className="h-3 w-3" /> {formatDate(article.publishedAt)}</span>
+                      <span className="inline-flex items-center gap-1"><Clock className="h-3 w-3" /> {article.readTime}</span>
+                    </div>
 
-                      <h2 className={`${index === 0 ? "text-3xl md:text-4xl" : "text-2xl"} font-black leading-tight text-foreground group-hover:text-success`}>
-                        <Link to={`/blog/${article.slug}`}>{article.title}</Link>
-                      </h2>
+                    <h2 className="text-xl font-bold leading-snug text-foreground group-hover:text-success line-clamp-3">
+                      <Link to={`/blog/${article.slug}`}>{article.title}</Link>
+                    </h2>
 
-                      <p className="mt-4 text-lg leading-8 text-muted-foreground">{article.excerpt}</p>
+                    <p className="mt-3 text-sm leading-6 text-muted-foreground line-clamp-3">{article.excerpt}</p>
 
-                      <div className="mt-5 flex flex-wrap gap-2">
-                        <Badge variant="outline" className="gap-1 text-xs">
-                          <Tag className="h-3 w-3" /> {article.primaryKeyword}
-                        </Badge>
-                        {article.secondaryKeywords.slice(0, 4).map((keyword) => (
-                          <Badge key={keyword} variant="secondary" className="text-xs">{keyword}</Badge>
-                        ))}
-                      </div>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <Badge variant="outline" className="gap-1 text-xs">
+                        <Tag className="h-3 w-3" /> {article.primaryKeyword}
+                      </Badge>
+                      {article.secondaryKeywords.slice(0, 2).map((keyword) => (
+                        <Badge key={keyword} variant="secondary" className="text-xs">{keyword}</Badge>
+                      ))}
+                    </div>
 
-                      <div className="mt-7">
-                        <Button asChild className="bg-success text-white hover:bg-success/90">
-                          <Link to={`/blog/${article.slug}`}>
-                            Read full article <ArrowRight className="h-4 w-4" />
-                          </Link>
-                        </Button>
-                      </div>
-                    </CardContent>
-                  </div>
+                    <div className="mt-auto pt-5">
+                      <Button asChild size="sm" className="bg-success text-white hover:bg-success/90">
+                        <Link to={`/blog/${article.slug}`}>
+                          Read full article <ArrowRight className="h-4 w-4" />
+                        </Link>
+                      </Button>
+                    </div>
+                  </CardContent>
                 </Card>
               ))}
             </div>
