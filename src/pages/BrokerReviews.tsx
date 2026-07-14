@@ -8,10 +8,10 @@ import { Shield, Star, TrendingUp, CheckCircle, Award, Users, Clock, Search } fr
 import { Link } from "react-router-dom";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
-import bgBrokerReviews from "@/assets/bg-broker-reviews.jpg";
-import icmarketsLogo from "@/assets/brokers/ic-markets.jpeg";
-import exnessLogo from "@/assets/brokers/exness.jpeg";
-import pepperstoneLogo from "@/assets/brokers/pepperstone.jpeg";
+import bgBrokerReviews from "@/assets/bg-broker-reviews.webp";
+import icmarketsLogo from "@/assets/brokers/ic-markets.webp";
+import exnessLogo from "@/assets/brokers/exness.webp";
+import pepperstoneLogo from "@/assets/brokers/pepperstone.webp";
 
 const reviewCategories = [
   {

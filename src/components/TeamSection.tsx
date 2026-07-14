@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Linkedin, Twitter, Globe } from "lucide-react";
-import member1Image from "@/assets/team/member1.jpg";
-import member2Image from "@/assets/team/member2.jpg";
-import member3Image from "@/assets/team/member3.jpg";
-import member4Image from "@/assets/team/member4.jpg";
+import member1Image from "@/assets/team/member1.webp";
+import member2Image from "@/assets/team/member2.webp";
+import member3Image from "@/assets/team/member3.webp";
+import member4Image from "@/assets/team/member4.webp";
 
 const teamMembers = [
   {
