@@ -1,3 +1,10 @@
+import trustedResearch from "@/assets/topics/trusted-research.jpg.asset.json";
+import regulationSafety from "@/assets/topics/regulation-safety.jpg.asset.json";
+import spreadsExecution from "@/assets/topics/spreads-execution.jpg.asset.json";
+import platformsApps from "@/assets/topics/platforms-apps.jpg.asset.json";
+import educationStrategy from "@/assets/topics/education-strategy.jpg.asset.json";
+import marketAnalysisNews from "@/assets/topics/market-analysis-news.jpg.asset.json";
+
 const topicClusters = [
   {
     title: "Trusted Forex Broker Research",
