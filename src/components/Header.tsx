@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { LanguageSelector } from "@/components/LanguageSelector";
-import logoSymbol from "@/assets/logo-symbol.png";
+import logoSymbol from "@/assets/logo-symbol.webp";
 
 export function Header() {
   const { t } = useTranslation();

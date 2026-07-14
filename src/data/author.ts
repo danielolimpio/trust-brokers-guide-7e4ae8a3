@@ -1,4 +1,4 @@
-import danielOlimpioPhoto from "@/assets/authors/daniel-olimpio.jpg";
+import danielOlimpioPhoto from "@/assets/authors/daniel-olimpio.webp";
 
 export type AuthorSocial = {
   platform: "linkedin" | "facebook" | "x" | "instagram" | "website";

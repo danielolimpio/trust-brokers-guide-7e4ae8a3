@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight, Shield, TrendingUp, Users, Star, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import heroFinance from "@/assets/hero-finance.jpg";
+import heroFinance from "@/assets/hero-finance.webp";
 
 export function HeroBanner() {
   const { t, i18n } = useTranslation();

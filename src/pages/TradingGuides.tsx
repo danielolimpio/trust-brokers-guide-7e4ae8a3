@@ -6,10 +6,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { BookOpen, TrendingUp, Target, Shield, Zap, Users, Award, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import bgTradingGuides from "@/assets/bg-trading-guides.jpg";
-import guideForex2026 from "@/assets/guide-forex-2026.jpg";
-import guideRiskManagement from "@/assets/guide-risk-management.jpg";
-import guideTechnicalAnalysis from "@/assets/guide-technical-analysis.jpg";
+import bgTradingGuides from "@/assets/bg-trading-guides.webp";
+import guideForex2026 from "@/assets/guide-forex-2026.webp";
+import guideRiskManagement from "@/assets/guide-risk-management.webp";
+import guideTechnicalAnalysis from "@/assets/guide-technical-analysis.webp";
 
 
 const guideLevels = [

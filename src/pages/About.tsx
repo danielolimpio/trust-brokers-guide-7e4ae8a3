@@ -4,7 +4,7 @@ import { TeamSection } from "@/components/TeamSection";
 import { SEO } from "@/components/SEO";
 import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Target, Users, Award } from "lucide-react";
-import bgAbout from "@/assets/bg-about.jpg";
+import bgAbout from "@/assets/bg-about.webp";
 
 const values = [
   {

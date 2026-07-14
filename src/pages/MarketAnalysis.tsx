@@ -6,8 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { TrendingUp, TrendingDown, Activity, BarChart3, LineChart, PieChart, Clock, ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import bgMarketAnalysis from "@/assets/bg-market-analysis.jpg";
-import bgRecommendation from "@/assets/bg-recommendation.jpg";
+import bgMarketAnalysis from "@/assets/bg-market-analysis.webp";
+import bgRecommendation from "@/assets/bg-recommendation.webp";
 
 const majorPairs = [
   { pair: "EUR/USD", price: "1.0895", change: "+0.45%", trend: "up", signal: "Bullish" },
