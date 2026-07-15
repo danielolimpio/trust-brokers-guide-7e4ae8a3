@@ -336,25 +336,22 @@ const BlogArticle = () => {
 
               <section className="mt-14 rounded-3xl border bg-card p-6 shadow-sm md:p-8">
                 <h2 className="text-3xl font-bold text-foreground">Related articles</h2>
-                <div className="mt-6 grid gap-5 md:grid-cols-2">
+                <div className="mt-6 grid gap-5 grid-cols-1 md:grid-cols-3">
                   {relatedStatic.map((item) => (
-                    <Link key={item.slug} to={`/blog/${item.slug}`} className="group overflow-hidden rounded-2xl border transition hover:-translate-y-1 hover:shadow-card">
-                      <img src={item.coverImage} alt={item.coverAlt} className="h-44 w-full object-cover transition group-hover:scale-105" />
-                      <div className="p-5">
-                        <Badge variant="secondary">{item.category}</Badge>
-                        <h3 className="mt-3 text-xl font-bold text-foreground group-hover:text-success">{item.title}</h3>
-                        <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.excerpt}</p>
+                    <Link key={item.slug} to={`/blog/${item.slug}`} className="group flex flex-col overflow-hidden rounded-2xl border transition hover:-translate-y-1 hover:shadow-card">
+                      <div className="aspect-video w-full overflow-hidden bg-muted">
+                        <img src={item.coverImage} alt={item.coverAlt} loading="lazy" className="h-full w-full object-cover transition group-hover:scale-105" />
                       </div>
-                    </Link>
-                  ))}
-                  {article.relatedArticles.map((item) => (
-                    <Link key={item.href} to={item.href} className="rounded-2xl border p-5 transition hover:-translate-y-1 hover:shadow-card">
-                      <h3 className="text-xl font-bold text-foreground hover:text-success">{item.title}</h3>
-                      <p className="mt-2 text-sm leading-6 text-muted-foreground">{item.description}</p>
+                      <div className="flex flex-1 flex-col p-5">
+                        <Badge variant="secondary" className="self-start">{item.category}</Badge>
+                        <h3 className="mt-3 text-lg font-bold leading-snug text-foreground group-hover:text-success line-clamp-3">{item.title}</h3>
+                        <p className="mt-2 text-sm leading-6 text-muted-foreground line-clamp-3">{item.excerpt}</p>
+                      </div>
                     </Link>
                   ))}
                 </div>
               </section>
+
 
               <AuthorCard />
             </article>
