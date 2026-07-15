@@ -201,7 +201,7 @@ const BlogArticle = () => {
     { label: article.title },
   ];
 
-  const relatedStatic = blogArticles.filter((item) => item.slug !== article.slug).slice(0, 2);
+  const relatedStatic = blogArticles.filter((item) => item.slug !== article.slug).slice(0, 3);
 
   return (
     <div className="min-h-screen bg-background">
