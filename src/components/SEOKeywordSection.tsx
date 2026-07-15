@@ -105,13 +105,13 @@ export function SEOKeywordSection() {
               key={cluster.title}
               className="group overflow-hidden rounded-lg border bg-card shadow-sm transition-all duration-300 hover:shadow-elegant"
             >
-              <div className="relative h-48 w-full overflow-hidden bg-slate-900">
+              <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-900">
                 <img
                   src={cluster.image}
                   alt={cluster.imageAlt}
                   loading="lazy"
                   decoding="async"
-                  className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
               <div className="p-6">
