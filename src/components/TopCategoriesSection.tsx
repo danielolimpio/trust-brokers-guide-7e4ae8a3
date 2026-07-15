@@ -101,7 +101,7 @@ export function TopCategoriesSection() {
                           <img
                             src={broker.logo}
                             alt={`${broker.name} logo`}
-                            className="w-8 h-8 rounded object-contain bg-white p-1"
+                            className="w-16 h-16 rounded-lg object-contain bg-white p-1.5 shadow-sm"
                           />
                           <div>
                             <h4 className="font-medium text-foreground">{broker.name}</h4>
