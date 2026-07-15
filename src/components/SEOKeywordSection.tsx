@@ -1,17 +1,10 @@
-import trustedResearch from "@/assets/topics/trusted-research.jpg.asset.json";
-import regulationSafety from "@/assets/topics/regulation-safety.jpg.asset.json";
-import spreadsExecution from "@/assets/topics/spreads-execution.jpg.asset.json";
-import platformsApps from "@/assets/topics/platforms-apps.jpg.asset.json";
-import educationStrategy from "@/assets/topics/education-strategy.jpg.asset.json";
-import marketAnalysisNews from "@/assets/topics/market-analysis-news.jpg.asset.json";
-
 const topicClusters = [
   {
     title: "Trusted Forex Broker Research",
     description:
       "BrokerTrusted compares regulated forex brokers by safety, licenses, execution quality, spreads, fees, account types, withdrawal speed and platform reliability so traders can identify brokers with stronger trust signals.",
     image:
-      trustedResearch.url,
+      "https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Financial analyst reviewing broker research reports at desk",
     terms: [
       "trusted forex brokers",
@@ -26,7 +19,7 @@ const topicClusters = [
     description:
       "Our broker research prioritizes FCA, CySEC, ASIC, NFA, CFTC, FSCA and DFSA regulation, segregated client funds, negative balance protection, transparent terms and consistent withdrawal processing.",
     image:
-      regulationSafety.url,
+      "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Financial regulation and compliance courthouse columns",
     terms: [
       "FCA regulated forex brokers",
@@ -41,7 +34,7 @@ const topicClusters = [
     description:
       "We evaluate low spread forex brokers, ECN accounts, STP execution, no dealing desk models, raw spread pricing, commissions, slippage, requotes and trading costs on major currency pairs such as EUR/USD, GBP/USD and USD/JPY.",
     image:
-      spreadsExecution.url,
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Forex trading charts with candlestick spreads on monitor",
     terms: [
       "low spread forex brokers",
@@ -56,7 +49,7 @@ const topicClusters = [
     description:
       "Broker comparisons include MetaTrader 4, MetaTrader 5, cTrader, TradingView integration, iOS and Android trading apps, demo accounts, copy trading, VPS hosting and professional account tools.",
     image:
-      platformsApps.url,
+      "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Trader using mobile trading app with charts on smartphone",
     terms: [
       "forex trading platforms",
@@ -71,7 +64,7 @@ const topicClusters = [
     description:
       "Our trading guides cover forex basics, technical analysis, market structure, trading psychology, risk per trade, stop loss placement, position sizing and a complete 2026 roadmap for beginner and advanced traders.",
     image:
-      educationStrategy.url,
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Business notebook and pen for trading strategy planning",
     terms: [
       "forex trading guide 2026",
@@ -86,7 +79,7 @@ const topicClusters = [
     description:
       "Market coverage focuses on currency pair analysis, economic calendar events, central bank decisions, inflation data, interest-rate expectations, broker updates and trading conditions that can affect spreads and volatility.",
     image:
-      marketAnalysisNews.url,
+      "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1200&q=70",
     imageAlt: "Financial newspaper with market analysis and stock prices",
     terms: [
       "forex market analysis",
@@ -97,6 +90,7 @@ const topicClusters = [
     ],
   },
 ];
+
 
 export function SEOKeywordSection() {
   return (
