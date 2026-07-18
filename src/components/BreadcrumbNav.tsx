@@ -1,5 +1,6 @@
 import { ChevronRight, Home } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import { stripLang } from "@/lib/langUtils";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -25,7 +26,7 @@ export function BreadcrumbNav({ items, className, variant = "default" }: Breadcr
   const location = useLocation();
 
   // Auto-generate breadcrumbs if not provided
-  const autoItems: BreadcrumbItem[] = items || generateBreadcrumbs(location.pathname);
+  const autoItems: BreadcrumbItem[] = items || generateBreadcrumbs(stripLang(location.pathname));
 
   const isLight = variant === "light";
   const homeLinkClass = isLight

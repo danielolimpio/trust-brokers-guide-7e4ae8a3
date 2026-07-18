@@ -1,20 +1,21 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { 
-  DropdownMenu, 
-  DropdownMenuContent, 
-  DropdownMenuItem, 
-  DropdownMenuTrigger 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
 import { ChevronDown, Globe } from 'lucide-react';
+import { Lang, stripLang } from '@/lib/langUtils';
 
-// Import flag assets
 import englishFlag from '@/assets/flags/english.svg';
 import portugueseFlag from '@/assets/flags/portuguese.svg';
 import spanishFlag from '@/assets/flags/spanish.svg';
 
-const languages = [
+const languages: { code: Lang; name: string; flag: string }[] = [
   { code: 'en', name: 'English', flag: englishFlag },
   { code: 'pt', name: 'Português', flag: portugueseFlag },
   { code: 'es', name: 'Español', flag: spanishFlag },
@@ -22,22 +23,27 @@ const languages = [
 
 export const LanguageSelector = () => {
   const { i18n } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
 
-  const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
+  const currentLanguage =
+    languages.find(lang => lang.code === i18n.language) || languages[0];
 
-  const changeLanguage = (languageCode: string) => {
-    i18n.changeLanguage(languageCode);
+  const changeLanguage = (code: Lang) => {
+    const rest = stripLang(location.pathname);
+    const target = `/${code}${rest === '/' ? '' : rest}${location.search}${location.hash}`;
     setIsOpen(false);
+    navigate(target);
   };
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
       <DropdownMenuTrigger asChild>
         <Button variant="ghost" size="sm" className="gap-2">
-          <img 
-            src={currentLanguage.flag} 
-            alt={currentLanguage.name} 
+          <img
+            src={currentLanguage.flag}
+            alt={currentLanguage.name}
             className="w-4 h-4 rounded-sm"
           />
           <span className="hidden sm:inline">{currentLanguage.name}</span>
@@ -52,9 +58,9 @@ export const LanguageSelector = () => {
             onClick={() => changeLanguage(language.code)}
             className="flex items-center gap-2 cursor-pointer"
           >
-            <img 
-              src={language.flag} 
-              alt={language.name} 
+            <img
+              src={language.flag}
+              alt={language.name}
               className="w-4 h-4 rounded-sm"
             />
             <span>{language.name}</span>

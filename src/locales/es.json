@@ -5,27 +5,45 @@
     "brokers": "Brókers",
     "reviews": "Reseñas",
     "news": "Noticias",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "brokerReviews": "Reseñas de Brókers",
+    "tradingGuides": "Guías de Trading",
+    "marketAnalysis": "Análisis de Mercado",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Encuentra los Brókers Forex Más Confiables",
-    "subtitle": "Reseñas profesionales, análisis completos y recomendaciones de expertos para ayudarte a elegir el bróker adecuado para tu viaje de trading.",
-    "cta": "Ver Mejores Brókers"
+    "subtitle": "Reseñas profesionales, análisis completos y recomendaciones de expertos para elegir el bróker adecuado para tu viaje de trading.",
+    "cta": "Comparar Brókers Verificados",
+    "checkSafety": "Verificar Seguridad del Bróker",
+    "regulationVerified": "Regulación Verificada",
+    "expertReviewed": "Revisado por Expertos",
+    "safetyGuaranteed": "Seguridad Garantizada"
   },
   "brokers": {
-    "title": "Brókers Mejor Calificados",
-    "viewProfile": "Ver Perfil",
-    "regulated": "Regulado",
+    "title": "Top 10 Brókers Forex Más Confiables",
+    "viewProfile": "Ver Detalles del Bróker",
+    "regulated": "VERIFICADO",
     "minDeposit": "Depósito Mín.",
     "spread": "Spread",
-    "leverage": "Apalancamiento"
+    "leverage": "Apalancamiento Máx.",
+    "viewAll": "Ver Todos los Brókers"
   },
   "blog": {
     "title": "Últimas Noticias y Análisis Forex",
-    "readMore": "Leer Más"
+    "readMore": "Leer Guía Completa",
+    "backToBlog": "Volver al blog",
+    "relatedArticles": "Artículos Relacionados",
+    "publishedOn": "Publicado el",
+    "updatedOn": "Actualizado el",
+    "readTime": "min de lectura",
+    "tableOfContents": "Índice",
+    "keyTakeaways": "Puntos Clave",
+    "faqTitle": "Preguntas Frecuentes",
+    "keyPoints": "Puntos clave"
   },
   "categories": {
-    "title": "Explorar por Categoría",
+    "title": "Navegar por Categoría",
     "bestBrokers": "Mejores Brókers",
     "forexSignals": "Señales Forex",
     "tradingStrategies": "Estrategias de Trading",
@@ -33,25 +51,66 @@
   },
   "team": {
     "title": "Conoce Nuestro Equipo de Expertos",
-    "subtitle": "Analistas profesionales y traders con años de experiencia en el mercado forex"
+    "subtitle": "Analistas profesionales y traders con años de experiencia verificando la seguridad de brókers, analizando el cumplimiento regulatorio y probando plataformas de trading para ayudarte a elegir los brókers forex más confiables."
   },
   "newsletter": {
-    "title": "Mantente Actualizado",
-    "subtitle": "Recibe las últimas noticias forex y reseñas de brókers en tu bandeja de entrada",
+    "title": "Mantente Actualizado sobre Brókers Confiables",
+    "subtitle": "Recibe las últimas reseñas verificadas de brókers, alertas de seguridad y actualizaciones regulatorias en tu bandeja de entrada",
     "placeholder": "Ingresa tu email",
-    "subscribe": "Suscribirse Ahora"
+    "subscribe": "Recibir Actualizaciones"
   },
   "footer": {
-    "description": "Tu fuente confiable para reseñas de brókers forex e insights de trading.",
+    "description": "Tu fuente confiable para reseñas de brókers forex verificados y regulados y análisis de seguridad. Ayudamos a los traders a encontrar los brókers más confiables con licencias adecuadas y protección al inversor.",
     "quickLinks": "Enlaces Rápidos",
     "contact": "Contacto",
     "followUs": "Síguenos",
-    "copyright": "© 2026 BrokerTrusted. Todos los derechos reservados."
+    "copyright": "© 2026 Copyright | BrokerTrusted | Todos los derechos reservados | Desarrollado por",
+    "bestBrokers": "Mejores Brókers",
+    "categories": "Categorías",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "riskWarning": "Advertencia de Riesgo:",
+    "riskWarningText": "Su capital está en riesgo. Estadísticamente, entre el 74% y el 89% de los inversores minoristas pierden dinero al operar con CFDs. Asegúrese de comprender los riesgos involucrados y busque asesoramiento independiente si es necesario.",
+    "links": {
+      "bestForexBrokers": "Mejores Brókers Forex",
+      "topRegulatedBrokers": "Principales Brókers Regulados",
+      "bestSpreads": "Mejores Spreads",
+      "highestLeverage": "Mayor Apalancamiento",
+      "bestBonuses": "Mejores Bonos",
+      "newBrokers": "Nuevos Brókers",
+      "bestForBeginners": "Mejores para Principiantes",
+      "bestForProfessionals": "Mejores para Profesionales",
+      "bestMobileApps": "Mejores Apps Móviles",
+      "ecnBrokers": "Brókers ECN",
+      "stpBrokers": "Brókers STP",
+      "marketMakers": "Market Makers",
+      "brokerReviews": "Reseñas de Brókers",
+      "tradingGuides": "Guías de Trading",
+      "marketAnalysis": "Análisis de Mercado",
+      "education": "Contenido Educativo",
+      "news": "Noticias Forex",
+      "blog": "Blog",
+      "about": "Sobre Nosotros",
+      "team": "Nuestro Equipo",
+      "methodology": "Metodología",
+      "contact": "Contacto",
+      "careers": "Carreras",
+      "press": "Prensa",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "cookies": "Política de Cookies",
+      "disclaimer": "Descargo de Responsabilidad",
+      "riskWarning": "Advertencia de Riesgo"
+    }
   },
   "common": {
     "loading": "Cargando...",
     "error": "Error",
     "tryAgain": "Intentar de Nuevo",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "readMore": "Leer más",
+    "learnMore": "Más información",
+    "home": "Inicio",
+    "autoTranslatedNotice": "Este contenido ha sido traducido automáticamente. El original fue escrito en inglés."
   }
 }

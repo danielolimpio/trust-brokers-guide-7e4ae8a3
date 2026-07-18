@@ -5,12 +5,20 @@
     "brokers": "Brokers",
     "reviews": "Reviews",
     "news": "News",
-    "contact": "Contact"
+    "contact": "Contact",
+    "brokerReviews": "Broker Reviews",
+    "tradingGuides": "Trading Guides",
+    "marketAnalysis": "Market Analysis",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Find the Most Trusted Forex Brokers",
     "subtitle": "Professional reviews, comprehensive analysis, and expert recommendations to help you choose the right broker for your trading journey.",
-    "cta": "Compare Verified Brokers"
+    "cta": "Compare Verified Brokers",
+    "checkSafety": "Check Broker Safety",
+    "regulationVerified": "Regulation Verified",
+    "expertReviewed": "Expert Reviewed",
+    "safetyGuaranteed": "Safety Guaranteed"
   },
   "brokers": {
     "title": "Top 10 Most Trusted Forex Brokers",
@@ -18,11 +26,21 @@
     "regulated": "VERIFIED",
     "minDeposit": "Min Deposit",
     "spread": "Spread",
-    "leverage": "Max Leverage"
+    "leverage": "Max Leverage",
+    "viewAll": "View All Brokers"
   },
   "blog": {
     "title": "Latest Forex News & Analysis",
-    "readMore": "Read Full Guide"
+    "readMore": "Read Full Guide",
+    "backToBlog": "Back to blog",
+    "relatedArticles": "Related Articles",
+    "publishedOn": "Published on",
+    "updatedOn": "Updated on",
+    "readTime": "min read",
+    "tableOfContents": "Table of contents",
+    "keyTakeaways": "Key takeaways",
+    "faqTitle": "Frequently Asked Questions",
+    "keyPoints": "Key points"
   },
   "categories": {
     "title": "Browse by Category",
@@ -46,12 +64,53 @@
     "quickLinks": "Quick Links",
     "contact": "Contact",
     "followUs": "Follow Us",
-    "copyright": "© 2026 BrokerTrusted. All rights reserved."
+    "copyright": "© 2026 Copyright | BrokerTrusted | All rights reserved | Developed by",
+    "bestBrokers": "Best Brokers",
+    "categories": "Categories",
+    "resources": "Resources",
+    "company": "Company",
+    "riskWarning": "Risk Warning:",
+    "riskWarningText": "Your capital is at risk. Statistically, 74-89% of retail investors lose money when trading CFDs. Please ensure you understand the risks involved and seek independent advice if necessary.",
+    "links": {
+      "bestForexBrokers": "Best Forex Brokers",
+      "topRegulatedBrokers": "Top Regulated Brokers",
+      "bestSpreads": "Best Spreads",
+      "highestLeverage": "Highest Leverage",
+      "bestBonuses": "Best Bonuses",
+      "newBrokers": "New Brokers",
+      "bestForBeginners": "Best for Beginners",
+      "bestForProfessionals": "Best for Professionals",
+      "bestMobileApps": "Best Mobile Apps",
+      "ecnBrokers": "ECN Brokers",
+      "stpBrokers": "STP Brokers",
+      "marketMakers": "Market Makers",
+      "brokerReviews": "Broker Reviews",
+      "tradingGuides": "Trading Guides",
+      "marketAnalysis": "Market Analysis",
+      "education": "Educational Content",
+      "news": "Forex News",
+      "blog": "Blog",
+      "about": "About Us",
+      "team": "Our Team",
+      "methodology": "Methodology",
+      "contact": "Contact",
+      "careers": "Careers",
+      "press": "Press",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "disclaimer": "Disclaimer",
+      "riskWarning": "Risk Warning"
+    }
   },
   "common": {
     "loading": "Loading...",
     "error": "Error",
     "tryAgain": "Try Again",
-    "close": "Close"
+    "close": "Close",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "home": "Home",
+    "autoTranslatedNotice": "This content is automatically translated. The original was written in English."
   }
 }

@@ -13,4 +13,7 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+# Multi-language sitemap with hreflang alternates
 Sitemap: https://brokertrusted.com/sitemap.xml
+
+Host: https://brokertrusted.com
