@@ -2,10 +2,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 import { AnalyticsSetup } from "./components/AnalyticsSetup";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { LangGate } from "./components/LangGate";
+import { GlobalLinkInterceptor } from "./components/GlobalLinkInterceptor";
+import { browserPreferredLang, DEFAULT_LANG, isLang } from "./lib/langUtils";
 import { AdminProvider } from "./contexts/AdminContext";
 import Index from "./pages/Index";
 import About from "./pages/About";
@@ -35,8 +38,71 @@ import TradingGuides from "./pages/TradingGuides";
 import MarketAnalysis from "./pages/MarketAnalysis";
 import StaticInfoPage from "./pages/StaticInfoPage";
 
-
 const queryClient = new QueryClient();
+
+// Redirect root -> browser-preferred language (fallback DEFAULT_LANG).
+const RootRedirect = () => {
+  const lang = browserPreferredLang() || DEFAULT_LANG;
+  return <Navigate to={`/${lang}`} replace />;
+};
+
+// Any legacy path without a language segment -> prepend DEFAULT_LANG.
+const LegacyRedirect = () => {
+  const location = useLocation();
+  const first = location.pathname.split("/").filter(Boolean)[0];
+  if (isLang(first)) return <NotFound />;
+  const lang = browserPreferredLang() || DEFAULT_LANG;
+  return <Navigate to={`/${lang}${location.pathname}${location.search}${location.hash}`} replace />;
+};
+
+const LocalizedRoutes = () => (
+  <LangGate>
+    <Routes>
+      <Route index element={<Index />} />
+      <Route path="about" element={<About />} />
+      <Route path="broker/:brokerId" element={<BrokerReview />} />
+      <Route path="brokers" element={<Brokers />} />
+      <Route path="news" element={<NewsBrokers />} />
+      <Route path="blog" element={<Blog />} />
+      <Route path="blog/:slug" element={<BlogArticle />} />
+      <Route path="contact" element={<Contact />} />
+
+      {/* Broker Category Pages */}
+      <Route path="best-forex-brokers" element={<BestForexBrokers />} />
+      <Route path="top-regulated-brokers" element={<TopRegulatedBrokers />} />
+      <Route path="best-spreads" element={<BestSpreads />} />
+      <Route path="highest-leverage" element={<HighestLeverage />} />
+      <Route path="best-bonuses" element={<BestBonuses />} />
+      <Route path="new-brokers" element={<NewBrokers />} />
+      <Route path="best-for-beginners" element={<BestForBeginners />} />
+      <Route path="best-for-professionals" element={<BestForProfessionals />} />
+      <Route path="best-mobile-apps" element={<BestMobileApps />} />
+      <Route path="ecn-brokers" element={<ECNBrokers />} />
+      <Route path="stp-brokers" element={<STPBrokers />} />
+      <Route path="market-makers" element={<MarketMakers />} />
+
+      {/* Content Pages */}
+      <Route path="broker-reviews" element={<BrokerReviews />} />
+      <Route path="trading-guides" element={<TradingGuides />} />
+      <Route path="market-analysis" element={<MarketAnalysis />} />
+      <Route path="reviews" element={<BrokerReviews />} />
+      <Route path="guides" element={<TradingGuides />} />
+      <Route path="analysis" element={<MarketAnalysis />} />
+      <Route path="education" element={<TradingGuides />} />
+      <Route path="team" element={<StaticInfoPage page="team" />} />
+      <Route path="methodology" element={<StaticInfoPage page="methodology" />} />
+      <Route path="careers" element={<StaticInfoPage page="careers" />} />
+      <Route path="press" element={<StaticInfoPage page="press" />} />
+      <Route path="privacy" element={<StaticInfoPage page="privacy" />} />
+      <Route path="terms" element={<StaticInfoPage page="terms" />} />
+      <Route path="cookies" element={<StaticInfoPage page="cookies" />} />
+      <Route path="disclaimer" element={<StaticInfoPage page="disclaimer" />} />
+      <Route path="risk-warning" element={<StaticInfoPage page="risk-warning" />} />
+
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </LangGate>
+);
 
 const App = () => (
   <HelmetProvider>
@@ -48,59 +114,24 @@ const App = () => (
           <BrowserRouter>
             <AnalyticsSetup />
             <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/broker/:brokerId" element={<BrokerReview />} />
-            <Route path="/brokers" element={<Brokers />} />
-            <Route path="/news" element={<NewsBrokers />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<BlogArticle />} />
-            <Route path="/contact" element={<Contact />} />
-            
-            {/* Broker Category Pages */}
-            <Route path="/best-forex-brokers" element={<BestForexBrokers />} />
-            <Route path="/top-regulated-brokers" element={<TopRegulatedBrokers />} />
-            <Route path="/best-spreads" element={<BestSpreads />} />
-            <Route path="/highest-leverage" element={<HighestLeverage />} />
-            <Route path="/best-bonuses" element={<BestBonuses />} />
-            <Route path="/new-brokers" element={<NewBrokers />} />
-            <Route path="/best-for-beginners" element={<BestForBeginners />} />
-            <Route path="/best-for-professionals" element={<BestForProfessionals />} />
-            <Route path="/best-mobile-apps" element={<BestMobileApps />} />
-            <Route path="/ecn-brokers" element={<ECNBrokers />} />
-            <Route path="/stp-brokers" element={<STPBrokers />} />
-            <Route path="/market-makers" element={<MarketMakers />} />
-            
-            {/* Content Pages */}
-            <Route path="/broker-reviews" element={<BrokerReviews />} />
-            <Route path="/trading-guides" element={<TradingGuides />} />
-            <Route path="/market-analysis" element={<MarketAnalysis />} />
-            <Route path="/reviews" element={<BrokerReviews />} />
-            <Route path="/guides" element={<TradingGuides />} />
-            <Route path="/analysis" element={<MarketAnalysis />} />
-            <Route path="/education" element={<TradingGuides />} />
-            <Route path="/team" element={<StaticInfoPage page="team" />} />
-            <Route path="/methodology" element={<StaticInfoPage page="methodology" />} />
-            <Route path="/careers" element={<StaticInfoPage page="careers" />} />
-            <Route path="/press" element={<StaticInfoPage page="press" />} />
-            <Route path="/privacy" element={<StaticInfoPage page="privacy" />} />
-            <Route path="/terms" element={<StaticInfoPage page="terms" />} />
-            <Route path="/cookies" element={<StaticInfoPage page="cookies" />} />
-            <Route path="/disclaimer" element={<StaticInfoPage page="disclaimer" />} />
-            <Route path="/risk-warning" element={<StaticInfoPage page="risk-warning" />} />
-            
-            {/* Admin Routes */}
-            <Route path="/admin/login" element={<AdminLogin />} />
-            <Route path="/admin" element={<UnifiedAdmin />} />
-            
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
-    </AdminProvider>
-  </QueryClientProvider>
+            <GlobalLinkInterceptor />
+            <Routes>
+              <Route path="/" element={<RootRedirect />} />
+
+              {/* Admin (no language prefix) */}
+              <Route path="/admin/login" element={<AdminLogin />} />
+              <Route path="/admin" element={<UnifiedAdmin />} />
+
+              {/* Language-prefixed app */}
+              <Route path="/:lang/*" element={<LocalizedRoutes />} />
+
+              {/* Anything else without a lang prefix -> redirect */}
+              <Route path="*" element={<LegacyRedirect />} />
+            </Routes>
+          </BrowserRouter>
+        </TooltipProvider>
+      </AdminProvider>
+    </QueryClientProvider>
   </HelmetProvider>
 );
 
