@@ -1,42 +1,1056 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://brokertrusted.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://brokertrusted.com/about</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://brokertrusted.com/brokers</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://brokertrusted.com/broker-reviews</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://brokertrusted.com/news</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/blog</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/blog/how-to-choose-a-trusted-forex-broker-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-spreads-and-trading-costs-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-leverage-complete-guide-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-technical-analysis-indicators-patterns-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-risk-management-protect-capital-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/best-forex-trading-platforms-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-trading-psychology-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/forex-vs-stocks-which-is-better-for-beginners-2026</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/blog/how-to-read-forex-charts-beginners-guide</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://brokertrusted.com/contact</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://brokertrusted.com/trading-guides</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://brokertrusted.com/market-analysis</loc><changefreq>daily</changefreq><priority>0.7</priority></url>
-  <url><loc>https://brokertrusted.com/methodology</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://brokertrusted.com/team</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://brokertrusted.com/press</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://brokertrusted.com/careers</loc><changefreq>monthly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://brokertrusted.com/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://brokertrusted.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://brokertrusted.com/cookies</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://brokertrusted.com/disclaimer</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://brokertrusted.com/risk-warning</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://brokertrusted.com/best-forex-brokers</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://brokertrusted.com/top-regulated-brokers</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://brokertrusted.com/best-spreads</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/highest-leverage</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/best-bonuses</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/new-brokers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/best-for-beginners</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/best-for-professionals</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/best-mobile-apps</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/ecn-brokers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/stp-brokers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://brokertrusted.com/market-makers</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://brokertrusted.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en" />
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en" />
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en" />
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/about" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/about" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/about" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/brokers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/brokers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/brokers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/broker-reviews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/broker-reviews" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/broker-reviews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/broker-reviews" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/broker-reviews</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/broker-reviews" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/broker-reviews" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/news</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/news" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/news" />
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/news</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/news" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/news" />
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/news</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/news" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/news" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/news" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/news" />
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/how-to-choose-a-trusted-forex-broker-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/how-to-choose-a-trusted-forex-broker-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-choose-a-trusted-forex-broker-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-spreads-and-trading-costs-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-spreads-and-trading-costs-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-spreads-and-trading-costs-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-spreads-and-trading-costs-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-leverage-complete-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-leverage-complete-guide-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-leverage-complete-guide-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-leverage-complete-guide-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-technical-analysis-indicators-patterns-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-technical-analysis-indicators-patterns-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-technical-analysis-indicators-patterns-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-risk-management-protect-capital-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-risk-management-protect-capital-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-risk-management-protect-capital-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-risk-management-protect-capital-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/best-forex-trading-platforms-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/best-forex-trading-platforms-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/best-forex-trading-platforms-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/best-forex-trading-platforms-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-trading-psychology-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-trading-psychology-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-trading-psychology-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-trading-psychology-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-trading-psychology-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/forex-vs-stocks-which-is-better-for-beginners-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/forex-vs-stocks-which-is-better-for-beginners-2026</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/forex-vs-stocks-which-is-better-for-beginners-2026" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/blog/how-to-read-forex-charts-beginners-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/blog/how-to-read-forex-charts-beginners-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/blog/how-to-read-forex-charts-beginners-guide" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/blog/how-to-read-forex-charts-beginners-guide" />
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/contact" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/contact" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/trading-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/trading-guides" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/trading-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/trading-guides" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/trading-guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/trading-guides" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/trading-guides" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/market-analysis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-analysis" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/market-analysis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-analysis" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/market-analysis</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-analysis" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-analysis" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/methodology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/methodology" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/methodology" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/methodology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/methodology" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/methodology" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/methodology</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/methodology" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/methodology" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/methodology" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/methodology" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/team" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/team" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/team" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/team" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/team" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/team" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/team" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/team" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/team</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/team" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/team" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/team" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/team" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/press" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/press" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/press" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/press" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/press" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/press" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/press" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/press" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/press</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/press" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/press" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/press" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/press" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/careers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/careers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/careers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/careers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/careers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/careers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/careers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/careers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/careers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/careers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/careers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/careers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/careers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/privacy" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/terms" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/terms" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/terms" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/terms" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/cookies" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/cookies" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/cookies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/cookies" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/cookies" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/cookies" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/cookies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/cookies" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/cookies</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/cookies" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/cookies" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/cookies" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/cookies" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/disclaimer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/disclaimer" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/disclaimer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/disclaimer" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/disclaimer</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/disclaimer" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/risk-warning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/risk-warning" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/risk-warning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/risk-warning" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/risk-warning</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/risk-warning" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/risk-warning" />
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-forex-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-forex-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-forex-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-forex-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-forex-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/top-regulated-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/top-regulated-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/top-regulated-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/top-regulated-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/top-regulated-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-spreads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-spreads" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-spreads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-spreads" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-spreads</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-spreads" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-spreads" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/highest-leverage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/highest-leverage" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/highest-leverage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/highest-leverage" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/highest-leverage</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/highest-leverage" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/highest-leverage" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-bonuses</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-bonuses" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-bonuses</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-bonuses" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-bonuses</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-bonuses" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-bonuses" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/new-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/new-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/new-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/new-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/new-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/new-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/new-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-for-beginners</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-beginners" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-for-beginners</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-beginners" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-for-beginners</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-beginners" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-beginners" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-for-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-professionals" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-for-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-professionals" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-for-professionals</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-for-professionals" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-for-professionals" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/best-mobile-apps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/best-mobile-apps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/best-mobile-apps</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/best-mobile-apps" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/best-mobile-apps" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/ecn-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/ecn-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/ecn-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/ecn-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/ecn-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/ecn-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/ecn-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/stp-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/stp-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/stp-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/stp-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/stp-brokers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/stp-brokers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/stp-brokers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/en/market-makers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-makers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-makers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-makers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-makers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/pt/market-makers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-makers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-makers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-makers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-makers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://brokertrusted.com/es/market-makers</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brokertrusted.com/en/market-makers" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://brokertrusted.com/pt/market-makers" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://brokertrusted.com/es/market-makers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brokertrusted.com/en/market-makers" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
