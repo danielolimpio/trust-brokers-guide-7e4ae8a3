@@ -5,24 +5,42 @@
     "brokers": "Corretoras",
     "reviews": "Análises",
     "news": "Notícias",
-    "contact": "Contato"
+    "contact": "Contato",
+    "brokerReviews": "Análises de Corretoras",
+    "tradingGuides": "Guias de Trading",
+    "marketAnalysis": "Análise de Mercado",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Encontre as Corretoras Forex Mais Confiáveis",
-    "subtitle": "Análises profissionais, avaliações abrangentes e recomendações de especialistas para ajudá-lo a escolher a corretora certa para sua jornada de trading.",
-    "cta": "Ver Melhores Corretoras"
+    "subtitle": "Análises profissionais, avaliações abrangentes e recomendações de especialistas para escolher a corretora certa para sua jornada de trading.",
+    "cta": "Comparar Corretoras Verificadas",
+    "checkSafety": "Verificar Segurança da Corretora",
+    "regulationVerified": "Regulamentação Verificada",
+    "expertReviewed": "Avaliada por Especialistas",
+    "safetyGuaranteed": "Segurança Garantida"
   },
   "brokers": {
-    "title": "Corretoras Mais Bem Avaliadas",
-    "viewProfile": "Ver Perfil",
-    "regulated": "Regulamentada",
+    "title": "Top 10 Corretoras Forex Mais Confiáveis",
+    "viewProfile": "Ver Detalhes da Corretora",
+    "regulated": "VERIFICADA",
     "minDeposit": "Depósito Mín.",
     "spread": "Spread",
-    "leverage": "Alavancagem"
+    "leverage": "Alavancagem Máx.",
+    "viewAll": "Ver Todas as Corretoras"
   },
   "blog": {
     "title": "Últimas Notícias e Análises Forex",
-    "readMore": "Leia Mais"
+    "readMore": "Ler Guia Completo",
+    "backToBlog": "Voltar ao blog",
+    "relatedArticles": "Artigos Relacionados",
+    "publishedOn": "Publicado em",
+    "updatedOn": "Atualizado em",
+    "readTime": "min de leitura",
+    "tableOfContents": "Sumário",
+    "keyTakeaways": "Principais Insights",
+    "faqTitle": "Perguntas Frequentes",
+    "keyPoints": "Pontos-chave"
   },
   "categories": {
     "title": "Navegue por Categoria",
@@ -33,25 +51,66 @@
   },
   "team": {
     "title": "Conheça Nossa Equipe de Especialistas",
-    "subtitle": "Analistas profissionais e traders com anos de experiência no mercado forex"
+    "subtitle": "Analistas profissionais e traders com anos de experiência verificando a segurança das corretoras, analisando conformidade regulatória e testando plataformas de trading para ajudar você a escolher as corretoras forex mais confiáveis."
   },
   "newsletter": {
-    "title": "Mantenha-se Atualizado",
-    "subtitle": "Receba as últimas notícias forex e análises de corretoras em sua caixa de entrada",
+    "title": "Mantenha-se Atualizado sobre Corretoras Confiáveis",
+    "subtitle": "Receba as últimas análises verificadas de corretoras, alertas de segurança e atualizações regulatórias na sua caixa de entrada",
     "placeholder": "Digite seu email",
-    "subscribe": "Inscrever-se Agora"
+    "subscribe": "Receber Atualizações"
   },
   "footer": {
-    "description": "Sua fonte confiável para análises de corretoras forex e insights de trading.",
+    "description": "Sua fonte confiável para análises de corretoras forex verificadas e regulamentadas e análises de segurança. Ajudamos traders a encontrar as corretoras mais confiáveis com licenciamento adequado e proteção ao investidor.",
     "quickLinks": "Links Rápidos",
     "contact": "Contato",
     "followUs": "Siga-nos",
-    "copyright": "© 2026 BrokerTrusted. Todos os direitos reservados."
+    "copyright": "© 2026 Copyright | BrokerTrusted | Todos os direitos reservados | Desenvolvido por",
+    "bestBrokers": "Melhores Corretoras",
+    "categories": "Categorias",
+    "resources": "Recursos",
+    "company": "Empresa",
+    "riskWarning": "Aviso de Risco:",
+    "riskWarningText": "Seu capital está em risco. Estatisticamente, 74-89% dos investidores de varejo perdem dinheiro ao operar CFDs. Certifique-se de compreender os riscos envolvidos e busque aconselhamento independente, se necessário.",
+    "links": {
+      "bestForexBrokers": "Melhores Corretoras Forex",
+      "topRegulatedBrokers": "Principais Corretoras Regulamentadas",
+      "bestSpreads": "Melhores Spreads",
+      "highestLeverage": "Maior Alavancagem",
+      "bestBonuses": "Melhores Bônus",
+      "newBrokers": "Novas Corretoras",
+      "bestForBeginners": "Melhores para Iniciantes",
+      "bestForProfessionals": "Melhores para Profissionais",
+      "bestMobileApps": "Melhores Apps Móveis",
+      "ecnBrokers": "Corretoras ECN",
+      "stpBrokers": "Corretoras STP",
+      "marketMakers": "Market Makers",
+      "brokerReviews": "Análises de Corretoras",
+      "tradingGuides": "Guias de Trading",
+      "marketAnalysis": "Análise de Mercado",
+      "education": "Conteúdo Educacional",
+      "news": "Notícias Forex",
+      "blog": "Blog",
+      "about": "Sobre Nós",
+      "team": "Nossa Equipe",
+      "methodology": "Metodologia",
+      "contact": "Contato",
+      "careers": "Carreiras",
+      "press": "Imprensa",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço",
+      "cookies": "Política de Cookies",
+      "disclaimer": "Isenção de Responsabilidade",
+      "riskWarning": "Aviso de Risco"
+    }
   },
   "common": {
     "loading": "Carregando...",
     "error": "Erro",
     "tryAgain": "Tentar Novamente",
-    "close": "Fechar"
+    "close": "Fechar",
+    "readMore": "Leia mais",
+    "learnMore": "Saiba mais",
+    "home": "Início",
+    "autoTranslatedNotice": "Este conteúdo foi traduzido automaticamente. O original foi escrito em inglês."
   }
 }
